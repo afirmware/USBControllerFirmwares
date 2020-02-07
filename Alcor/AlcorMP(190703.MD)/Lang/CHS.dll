@@ -1,0 +1,526 @@
+[IDS]
+;string for main user interface
+IDS_MAIN_UI_CUR_SETTING						= 当前设定
+IDS_MAIN_UI_DISK_MODE						= 装置方式: 
+IDS_MAIN_UI_BADBLOCK						= 坏块设定: 
+IDS_MAIN_UI_SN								= 序列号:
+IDS_MAIN_UI_MP_MODE							= 优化方式: 
+IDS_MAIN_UI_SCAN_MODE						= 扫描方式: 
+IDS_MAIN_UI_SCAN_LEVEL						= 扫描级别: 
+IDS_MAIN_UI_START							= 开始(&A)
+IDS_MAIN_UI_SETUP							= 设定(&S)
+IDS_MAIN_UI_REFRESH							= 更新(&R)
+IDS_MAIN_UI_STOP							= 停止(&P)
+IDS_MAIN_UI_EJECT							= 弹出(&E)
+IDS_MAIN_UI_STATUS              			= 状态
+IDS_MAIN_UI_HELP							= 帮助, 请按F1
+IDS_MAIN_UI_AUTOMP							= 自动量产
+IDS_MAIN_UI_ERROR_ANALYSE 					= 失败分析
+IDS_MAIN_UI_MANUAL_REFRESH 					= 手动更新
+
+;string for setup user interface
+IDS_SETUP_UI_SHEET_FLASH					= 存储器设定
+IDS_SETUP_UI_SHEET_MODE						= 装置方式设定
+IDS_SETUP_UI_SHEET_DISK_INFO				= U盘信息设定
+IDS_SETUP_UI_SHEET_BADBLOCK					= 坏磁区设定
+IDS_SETUP_UI_SHEET_AUTOPRODUCTION 			= 其它设定
+IDS_SETUP_UI_SHEET_SORTING_TEST 			= Flash分析
+IDS_SETUP_UI_SHEET_MP3						= MP3设定
+IDS_SETUP_UI_SHEET_STRUCT					= 结构检测
+IDS_SETUP_UI_IMPORT_SET						= 导入配置
+IDS_SETUP_UI_EXPORT_SET						= 导出配置
+IDS_SETUP_UI_IMPORT_TITLE					= 导入MP设定信息
+IDS_SETUP_UI_EXPORT_TITLE					= 导出MP设定信息
+IDS_SETUP_UI_IMPORT_SUCCESS					= 导入配置成功
+IDS_SETUP_UI_EXPORT_SUCCESS					= 导出配置成功
+
+;MessageBox
+IDS_SETUP_MESSAGE_NOTE          			= 提示
+IDS_SETUP_MESSAGE_MY_COMPUTER   			= 我的电脑:\\
+IDS_SETUP_MESSAGE_DIR           			= 目录文件夹
+IDS_SETUP_MESSAGE_DOC           			= 请选择文件
+IDS_SETUP_MESSAGE_CAP           			= 预设容量不能为零，请重新设定。
+
+; Password Dialog
+IDS_SETUP_UI_CHANGE_PWD						= 更改密码
+IDS_SETUP_UI_PWD							= 密码
+IDS_SETUP_UI_NEW_PWD						= 新密码
+IDS_SETUP_UI_CHECK_PWD						= 密码确认
+IDS_SETUP_UI_REMEMBER_PWD					= 记住密码
+IDS_SETUP_UI_EDIT_SUCCESS					= 修改密码成功!
+IDS_SETUP_UI_PWD_DIFFERENT					= 两次输入的密码不相同!
+IDS_SETUP_UI_PWD_ERROR						= 密码不正确!
+IDS_SETUP_UI_OK								= 确定
+IDS_SETUP_UI_CANCEL							= 取消
+
+; Flash Sheet
+IDS_SETUP_UI_TITLE							= 设定
+IDS_SETUP_UI_FLASH_SET						= 存储器类别
+IDS_SETUP_UI_UNAUTO_DETECT					= 禁止自动检测
+IDS_SETUP_UI_FLASH_TYPE						= Flash类型
+IDS_SETUP_UI_FLASH_NUM						= Flash数量
+IDS_SETUP_UI_RW_CYCLE           			= 读写周期
+IDS_SETUP_UI_CHANNEL            			= 通道
+IDS_SETUP_UI_SINGLE_CHANNEL     			= 单通道
+IDS_SETUP_UI_DUAL_CHANNEL       			= 双通道
+IDS_SETUP_UI_MP_SET							= 量产设定
+IDS_SETUP_UI_MP_MODE						= 优化方式
+IDS_SETUP_UI_SPEED_OPTIMIZE					= U盘速度优先
+IDS_SETUP_UI_CAP_OPTIMIZE					= U盘容量优先
+IDS_SETUP_UI_LLF_SET						= 原低格设定
+IDS_SETUP_UI_OPTIMIZE_MODE					= 优化方式2
+IDS_SETUP_UI_OPTIMIZE_MODE_DEFAULT			= 默认
+IDS_SETUP_UI_OPTIMIZE_MODE_STABILITY		= 默认
+IDS_SETUP_UI_OPTIMIZE_MODE_CAPACITY			= 最大容量
+IDS_SETUP_UI_OPTIMIZE_MODE_YIELD_FACTOR		= 最高直通率
+IDS_SETUP_UI_SCAN_MODE						= 扫描方式
+IDS_SETUP_UI_HLF_SCAN_MODE					= 高级格式化
+IDS_SETUP_UI_LLF_SCAN_MODE					= 低级格式化
+IDS_SETUP_UI_SUPER_SCAN_MODE 				= 智能格式化
+IDS_SETUP_UI_LLF							= 低格
+IDS_SETUP_UI_MPed 							= 高格量产过
+IDS_SETUP_UI_NEED_RE_CHECK					= 失败后半容量检测
+IDS_SETUP_UI_FAST_MPED_CHECK				= 快速高格量产过
+IDS_SETUP_UI_INC_BADBLOCK_CHECK			 	= 增加上次新增坏块
+IDS_SETUP_UI_REMP_SCAN_MODE     			= 重新量产
+IDS_SETUP_UI_SCAN_LEVEL         			= 扫描级别
+IDS_SETUP_UI_HLF_10							= 全新
+IDS_SETUP_UI_HLF_20							= 全新 + AA55
+IDS_SETUP_UI_HLF_30							= 量产过
+IDS_SETUP_UI_HLF_40							= 清空
+IDS_SETUP_UI_HLF_50							= 仅读标记坏块
+IDS_SETUP_UI_HLF_60							= 清空 + 全新
+IDS_SETUP_UI_HLF_70							= 读容量
+IDS_SETUP_UI_HLF_80							= 读U3容量
+IDS_SETUP_UI_LLF_10							= 全面扫描1
+IDS_SETUP_UI_LLF_20							= 全面扫描2
+IDS_SETUP_UI_LLF_30							= 全面扫描3
+IDS_SETUP_UI_LLF_50							= 全面扫描4
+IDS_SETUP_UI_LLF_80							= L63(34nm)黑片
+IDS_SETUP_UI_LLF_11							= 快速扫描1
+IDS_SETUP_UI_LLF_12							= 快速扫描2
+IDS_SETUP_UI_LLF_13							= 快速扫描3
+IDS_SETUP_UI_LLF_14							= 快速扫描4
+IDS_SETUP_UI_REMP_10						= 已量产过
+IDS_SETUP_UI_OTHER_SET						= 其它设定
+IDS_SETUP_UI_ERASE_AFTER_ERASE				= 量产后擦除Flash
+IDS_SETUP_UI_SORTING_SET        			= Flash筛选
+IDS_SETUP_UI_DEFAULT            			= (默认)
+IDS_SETUP_UI_BURN_SET           			= 老化设定
+IDS_SETUP_UI_BURN_CHECK         			= 需要老化
+IDS_SETUP_UI_BURN_TIME          			= 圈
+IDS_SETUP_UI_RW_TEST            			= 速度测试
+IDS_SETUP_UI_RW_TEST_FILE_CMP				= 文件对比
+IDS_SETUP_UI_RW_TEST_CAP					= 容量MB
+IDS_SETUP_UI_RW_TEST_BIN					= Bin
+IDS_SETUP_UI_RW_TEST_PORT					= 端口数量
+IDS_SETUP_UI_RW_TEST_WRITE					= 写MB/s
+IDS_SETUP_UI_RW_TEST_READ					= 读MB/s
+IDS_SETUP_UI_RW_TEST_SET_STATIC				= MP速度测试
+
+IDS_SETUP_UI_USE_SPECIAL_CLASS				= 使用特殊分类
+IDS_SETUP_UI_CHANGE_MP_MODE_CAP				= 转为U盘容量优先, 当容量小于
+IDS_SETUP_UI_CHANGE_MP_MODE_SPEED			= 转为U盘速度优先, 当容量大于
+IDS_SETUP_UI_TWICE_SCAN						= 扫描次数
+IDS_SETUP_UI_ECC_REVISE_LEVEL				= 低格校正
+IDS_SETUP_UI_ENHANCE						= Ecc微调级别
+IDS_SETUP_UI_SETUP_ENHANCE					= 改进设定
+IDS_SETUP_UI_SECTOR_ERR						= Sector允许的错误数
+IDS_SETUP_UI_ADVANCEDLY						= 高级设定
+IDS_SETUP_UI_ECC_DEFAULT    				= 默认
+IDS_SETUP_UI_SECTOR_ECCLEVEL				= 级别
+IDS_SETUP_UI_NATURAL						= 正常
+IDS_SETUP_UI_NATURAL_CHECK  				= 正常检测
+IDS_SETUP_UI_DISTURB_CHECK					= 干扰检测
+IDS_SETUP_UI_HYNIX_CHECK					= 特殊检测-Hynix
+IDS_SETUP_UI_SPEC_CHECK						= 特殊检测
+IDS_SETUP_UI_LLF_FORMAT						= 低格检测
+IDS_SETUP_UI_HALFCAPACITY_CHECK 			= 半容量检测(默认)
+IDS_SETUP_UI_RANDOMPAGE_CHECK 				= 半容量检测(较慢)
+IDS_SETUP_UI_FORCE_HALF_CHECK 				= 强制半容量检测
+IDS_SETUP_UI_ECC_SET        				= 原低格设定(默认)
+IDS_SETUP_UI_STRICT         				= (严格)
+IDS_SETUP_UI_LOOSE	        				= (宽松)
+IDS_SETUP_UI_SPECIAL_FLASH					= 特殊状况Flash
+IDS_SETUP_UI_SPECIAL_FLASH_NORMAL 			= 正常(默认)
+IDS_SETUP_UI_SPECIAL_FLASH_STARRAM 			= L63(StarRam)
+IDS_SETUP_UI_COMPARE_OPTIMIZATION 			= 优化对比
+IDS_SETUP_UI_FORCE_MULTI_PLANE_LLF			= 所有Port LLF时, 都强制进行MultiPlaneOP<缩短LLF时间,可能影响容量>
+
+;Product Mode
+IDS_PRODUCT_MODE                                        = 生产方式
+IDS_PRODUCT_MODE_SORT                                   = 测试架Sort
+IDS_PRODUCT_MODE_PRODUCT                                = 成品开卡
+IDS_SHOW_PRODUCT_MODE																		= 下次不再提示
+
+//Enhance UI
+IDS_ENHANCE_UI_BK							= 增强读写稳定性
+IDS_ENHANCE_UI_BK_ON						= 降低写速度，容量有可能降低
+IDS_ENHANCE_UI_BK_OFF						= 可能会影响读写稳定性
+
+//Auto Production
+IDS_SETUP_UI_AUTO_FLASH_SET					= 设定存储器
+IDS_SETUP_UI_AUTO_FLASH_LIST 				= Flash类型
+IDS_SETUP_UI_AUTO_FIX_FLASH					= 指定Flash名称
+IDS_SETUP_UI_AUTO_SET_DELAY 				= 设定延时
+IDS_SETUP_UI_AUTO_FIX_ID					= 指定FlashID 
+IDS_SETUP_UI_AUTO_PRODUCTION				= 自动量产设定
+IDS_SETUP_UI_AUTO_FORCE_FLASH 				= 强制指定Flash
+IDS_SETUP_UI_AUTO_DEFAULT_NOTSPECIFY_FLASH 	= 不指定Flash型号
+IDS_SETUP_UI_AUTO_WHETHER_SHOW 				= 显示是否支持其它类型主控
+IDS_SETUP_UI_AUTO_WHETHER_SHOW1				= 显示83是否支持AP盘
+IDS_SETUP_UI_ADJUSTMENT_POWER				= 调节电流
+IDS_SETUP_UI_ADJUSTMENT_POWER_ERROR 		= 此装置不支持调节电流
+
+; Mode Sheet
+IDS_SETUP_UI_DISK_MODE						= 模式设定
+IDS_SETUP_UI_AP_DISK						= 普通盘
+IDS_SETUP_UI_FIXED_DISK						= 本地盘
+IDS_SETUP_UI_READONLY_DISK					= 只读盘
+IDS_SETUP_UI_PASSWORD_DISK					= 加密盘
+IDS_SETUP_UI_VIRTUAL_DISK					= 预设容量
+IDS_SETUP_UI_DEFAULT_AUTORUN				= 默认方式
+IDS_SETUP_UI_MANUAL_AUTORUN					= 手动方式
+IDS_SETUP_UI_PARTITION_SET					= 分区设定
+IDS_SETUP_UI_VOLUMEL						= 卷标
+IDS_SETUP_UI_DISK_SN            			= 磁碟序列号
+IDS_SETUP_UI_COPY_TO_PARTITION1 			= 拷贝到分区1
+IDS_SETUP_UI_COPY_TO_PARTITION2 			= 拷贝到分区2
+IDS_SETUP_UI_PASSWORD_DISK_SET				= 加密盘设定
+IDS_SETUP_UI_PASSWORD						= 密码
+IDS_SETUP_UI_READONLY_DISK_SET				= 只读盘设定
+IDS_SETUP_UI_FILE_SET						= 文件选择
+IDS_SETUP_UI_LED_SET						= LED设定
+IDS_SETUP_UI_LED_TYPE						= LED频率
+IDS_SETUP_UI_IDLESSE						= 空闲状态
+IDS_SETUP_UI_RESERVE_USER					= 二次开发设定
+IDS_SETUP_UI_RESERVE_SIZE					= 隐藏区
+IDS_SETUP_UI_AUTHORIZE						= 隐藏区授权码
+IDS_SETUP_UI_RESERVE_NOTE					= (0 = 不设定)
+IDS_SETUP_UI_WARNING            			= 请勿超过Flash实际容量,否则会造成U盘不稳定
+IDS_SETUP_UI_ONE                			= 一个盘符
+IDS_SETUP_UI_TWO                			= 两个盘符
+IDS_SETUP_UI_AES_DISK						= AES盘
+IDS_SETUP_UI_MP_AES_DISK					= AES盘请使用专用工具
+
+; DiskInfo Sheet
+IDS_SETUP_UI_CUSTOMER_INFO 					= 客户信息设定
+IDS_SETUP_UI_SCSI_VS						= 客户信息
+IDS_SETUP_UI_SCSI_PS						= 产品信息
+IDS_SETUP_UI_DSN							= 随机设定
+IDS_SETUP_UI_FSN							= 固定
+IDS_SETUP_UI_ISN							= 递增
+IDS_SETUP_UI_CSN							= 定制算法
+IDS_SETUP_UI_ASN							= 按时间
+IDS_SETUP_UI_SN_SET							= 序列号设定
+IDS_SETUP_UI_SN								= 序列号
+IDS_SETUP_UI_PREFIX_SN						= 前置
+IDS_SETUP_UI_START_SN						= 开始
+IDS_SETUP_UI_COUNT_SN						= 计数
+IDS_SETUP_UI_DIGIT8             			= 8位序列号
+IDS_SETUP_UI_DIGIT20            			= 20位序列号
+IDS_SETUP_UI_DIGIT_SPEC						= 设定序列号(<=30位)
+
+; BadBlock Sheet
+IDS_SETUP_UI_BADBLOCK_SET       			= 坏磁区
+IDS_SETUP_UI_ABB							= 自动计算容量
+IDS_SETUP_UI_DBB							= 动态设定
+IDS_SETUP_UI_CBB							= 静态设定
+IDS_SETUP_UI_FIXCAP							= Bin 级
+IDS_SETUP_UI_EXTRA_RESERVE					= 额外保留磁区
+IDS_SETUP_UI_MIN_CAP						= 最小值
+IDS_SETUP_UI_MAX_CAP						= 最大值
+IDS_SETUP_UI_BADBLOCK_PERCENT				= 总百分比
+IDS_SETUP_UI_FILE_SYSTEM					= 文件系统
+IDS_SETUP_UNINSTALL_DRIVER      			= 关闭MP时 卸载驱动
+IDS_SETUP_ATTO_OPTIMIZE						= ATTO优化
+IDS_SETUP_UI_FIXCAPACITY					= 固定容量
+IDS_SETUP_UI_CAP_SETERROR					= 容量设置错误
+IDS_SETUP_UI_HUB_PORT           			= 固定端口设置
+IDS_SETUP_UI_INSERT_ORDER_FIX_HUB           = 装置插入顺序(固定HUB)
+IDS_SETUP_UI_INSERT_ORDER_NOT_FIX_HUB       = 装置插入顺序(不固定HUB)
+IDS_SETUP_UI_USB_STOR_ENUM_ORDER			= 驱动枚举顺序
+IDS_SETUP_UI_INSERT_REVERSAL_ORDER_FIX_HUB		=	HUB内PORT序号对转
+IDS_SETUP_UI_BY_HUB_PROFILE					= 依固定端口配制文件
+IDS_SETUP_UI_NORMAL             			= 正常
+IDS_SETUP_UI_DEVICE_COUNT       			= 装置个数：
+IDS_SETUP_UI_CDROM_LABEL        			= CD-ROM卷标
+IDS_SETUP_UI_NTFS_NOTE						= 只支持一个盘符模式
+IDS_RUNNING_PORT_NUM							= 同时量产个数
+IDS_SELECT_NEW_UI									= 使用新界面
+
+;SortingTest Sheet
+IDS_SETUP_UI_SORTING_TEST       			= 分析Flash状况
+IDS_SETUP_UI_BLOCK_COUNT        			= 测试区块数
+IDS_SETUP_UI_METHOD             			= 测试方法
+IDS_SETUP_UI_ALLOW_BLOCK        			= 允许坏块数
+IDS_SETUP_UI_PATTERN_SELECT     			= 扫描文件选择
+IDS_SETUP_UI_BROWSE             			= 浏览
+IDS_SETUP_UI_CREATE             			= 创建
+
+;Check Struct Sheet
+IDS_SETUP_UI_AUTO_CHECK						= 自动检测
+IDS_SETUP_UI_FORCE_CHECK					= 强制指定结构
+IDS_SETUP_UI_SHARE_RB						= RBpin共享
+IDS_SETUP_UI_CEDIE_TABLE					= CEDie结构表
+
+;Driver
+IDS_DRIVER_DEL_VIDPID						= 删除VID/PID
+IDS_DRIVER_ADD_VIDPID						= 增加VID/PID
+IDS_DRIVER_LIST_VIDPID						= VID/PID列表:
+IDS_DRIVER_INSERVET_DEVICE_VIDPID			= 插入装置的VID/PID:
+IDS_DRIVER_EXIT_SAVE						= 保存并安装驱动
+IDS_DRIVER_CANCEL							= 取消
+
+;string for show current status
+IDS_STS_ERASE_ALL							= 清空进行中... %2.1f%%
+IDS_STS_SCAN_BAD_BLOCK						= 扫描坏块进行中... %2.1f%%
+IDS_STS_FORMAT_DEVICE						= 格式化进行中...
+IDS_STS_PRE_COPY_FILE						= 普通盘预拷贝文件中...
+IDS_STS_READONLY_COPY           			= 拷贝只读盘文件...
+IDS_STS_AP_COPY                 			= 写入AP工具...
+IDS_STR_GETBADBLOCKINFO						= 检查坏块进行中...
+IDS_STS_MARK_BAD_BLOCK						= 标记坏块进行中... %2.1f%%
+IDS_STS_NOTSUPORT_SD						= SD暂不支持
+IDS_STS_ERASE_RESULT						= "擦除完成! 时间: %s"
+IDS_STS_SORTING_RESULT						= "Sorting完成! 时间: %s\r\n容量:%.1fM,坏块数: %d/%d"
+IDS_STS_RD_BAD_BLOCK_INFO					= 读取坏块信息 %2.1f%%
+IDS_STS_MP_ERROR_RESULT						= "%s\r\n坏块数: %d/%d"
+IDS_STS_SPECIAL_HLF    						= "高格中..."
+IDS_STS_USE_89AN							= " [仅89AN]"
+
+;string for show error information
+IDS_ERR_NO_CONFIG_FILE						= 加载配制文件出错
+IDS_ERR_NO_FLASHLIST_FILE					= 加载FlashList.ini文件出错
+IDS_ERR_LOAD_LLF_DLL						= 加载LLF.DLL出错
+IDS_ERR_CONTROLLER_CHANGE					= 集线器状态改变, 量产工具将关闭! \r\n请先拔出所有U盘设备, 再打开量产工具!
+IDS_ERR_CHANGE_RERUN						= 集线器装置设置改变，请拔除所有装置！\r\n\r\n是否重新启动量产程序？
+IDS_ERR_CHANGE_UI							= 改变程序界面，必须重新启动程序！\r\n\r\n是否继续？
+IDS_ERR_SEL_FLASH_NAME						= 请指定Flash型号
+
+IDS_ERR_INVALID_DEVECE						= 无效设备
+IDS_ERR_NO_SUPPORT_DEVICE_MODE				= 不支持此型号的主控
+IDS_ERR_GET_DEVICE_CONFIG					= 读装置信息错
+IDS_ERR_GET_FLASH_ID						= 读Flash ID错
+IDS_ERR_NO_FLASH_IN_DEVICE					= 未检测到Flash
+IDS_ERR_DUAL_CHANNEL_FALSE_ID				= 双通道Flash ID不一致
+IDS_ERR_MUTI_DIE_FALSE_ID					= 多CE Flash ID不一致
+IDS_ERR_UNKNOW_FLASH_ERROR					= Flash类型未知
+IDS_ERR_NO_SUPPORT_FLASH					= 不支持此型号Flash
+IDS_ERR_GET_MODULE_ETURE					= 读Module特性失败
+IDS_ERR_NO_SUPPORT_DUAL_CHANNEL				= 不支持双通道
+IDS_ERR_FLASH_LIST_NOT_EXISTS				= Flash列表不存在
+IDS_ERR_NOT_SPECIFY_FLASH					= 非指定Flash
+IDS_ERR_DIFFERENT_FLASH_IN_DEVICE			= 设备中有不同的Flash
+
+IDS_ERR_NO_SORT_CLASS_FORCE_HALF_PAGE_MODE 	= 无可用分类
+IDS_ERR_TOO_MANY_BAD_BLOCK					= 坏磁区过多
+IDS_ERR_NO_ENOUGH_CAP 						= 容量不足
+IDS_ERR_MISS_BIN_FILE						= 找不到Bin文件
+IDS_ERR_READ_LCM_FILE						= 找不到LCM文件
+IDS_ERR_LOAD_FIRMWARE_CODE					= 载入韧体数据失败
+IDS_ERR_MISS_CG3_FILE						= 找不到KG3文件
+IDS_ERR_GET_SORTING_RESULT					= 无可用分类
+IDS_ERR_READ_BAD_BLOCK_INFO					= 读坏块信息失败
+IDS_ERR_LOAD_CONFIG							= 载入配制信息失败
+IDS_ERR_HARDWARE_WRITE_PROTECT 				= 硬件写保护
+IDS_ERR_GET_USERPASSWORD_STATUS 			= 读状态信息错
+IDS_ERR_COPY_FILE							= 拷贝文件失败
+IDS_ERR_RW_TEST								= 读写测试失败
+IDS_ERR_CREATE_PARTITION					= 创建文件系统失败
+IDS_ERR_USER_STOP							= 用户停止
+IDS_ERR_DEVICE_REMOVE						= 装置移除
+IDS_ERR_UNDEFINE_SCAN_LEVEL					= 未定义扫描级别
+IDS_ERR_SEM_TIMEOUT							= 信号灯超时
+
+IDS_ERR_CREATE_AES  						= 创建AES盘失败
+IDS_ERR_NO_SUPPORT_AES  					= 不支持AES盘
+IDS_ERR_ONLY_SUPPORT_AP_DISK 				= FLASH只支持普通盘
+
+IDS_ERR_BURNINTEST              			= 文件比对失败!
+IDS_ERR_WRITEFILE							= 写文件失败!
+IDS_ERR_CREATE_DIRECTORY					= 创建文件目录失败!
+
+IDS_ERR_WRIBBT								= 写坏块信息错误
+IDS_ERR_RDIBBT								= 读坏块信息错误
+IDS_ERR_MATCHIBBT							= 两个闪存有不同分类
+IDS_ERR_NOIBBT								= 没有找到坏块信息
+IDS_ERR_UNKNOWN_IBBT_VERSION				= 未知的坏块信息版本
+IDS_ERR_ECC_BIG_NO_SUPPORT_REMP 			= ECC太大，不支持量产过功能
+IDS_ERR_READ_BAD_BLOCK_TABLE 				= 读坏块表错误
+IDS_ERR_CHECK_FIRMWARE_CODE     			= 检测韧体数据错误
+
+IDS_ERR_CMD_TIMEOUT							= 命令超时
+IDS_ERR_RB_FREE								= R/B PIN脚不起作用
+IDS_ERR_WP_LOW								= 写保护PIN一直是低电位
+IDS_ERR_READ_HYNIX_OTP                      = 解决方式请参看说明文档!
+IDS_ERR_MP_TIMEOUT							= 量产时间超时
+IDS_HAS_DIFFERENT_FLASH_ERR 				= 有不同的FLASH，请重新检测!
+
+IDS_ERR_Fixed_CAP_SETTED_OVERFLOW 			= 固定容量设置超出FLASH界限!
+IDS_ERR_VIRTUAL_NO_DISK 					= 请插入定制盘。
+IDS_ERR_VIRTUAL_NUM_OVERFLOW 				= 使用次数超限，请更换定制盘。
+IDS_ERR_VIRTUAL_MP_NUM_OVERFLOW 			= 量产次数超限,请关闭量产工具，插入定制盘后再次开启量产工具。
+IDS_ERR_USE_SPECIAL_TOOL 					= 请使用特殊版本量产工具
+IDS_ERR_CAP_ERROR							= 容量比对错误!!!
+
+IDS_ERR_COMPARE_FILE_UNSTABLE 				= 对比不稳定
+IDS_ERR_COMPARE_FAIL 						= 对比失败
+IDS_ERR_SIGNAL_ABNORMAL 					= 信号不良
+IDS_SAVE_HUB_PROFILE_SUCCESS			= 保存Hub配置信息成功!\r\n
+IDS_SAVE_HUB_PROFILE_NOT_SUPPORT	= 不支持保存Hub配置信息!\r\n
+IDS_MAIN_UI_SAVE_PORT_PROFILE			= 导出Hub信息
+IDS_SAVE_HUB_PROFILE_TIP					= 导出之前，请确认所有盘都已被MP认到？
+;error analyse and solve
+ANA_ERR_HEAD								= 错误分析:\r\n
+ANA_ERR_ALL_BAD_FLASH						= FLASH坏磁区太多\r\n\r\n
+ANA_ERR_INTERACT_IN_FLASH					= FLASH内部有干扰\r\n\r\n
+ANA_ERR_ECC_TOO_SMALL						= ECC开的过小\r\n\r\n
+ANA_ERR_BLOCK_MODE							= BLOCK模式下全坏\r\n\r\n
+ANA_ERR_RBPIN_BAD							= R/B PIN 不起作用\r\n\r\n
+ANA_ERR_HARDWARE_WRITE_PROTECT				= 硬件写保护了\r\n\r\n
+
+;key control
+IDS_KEY_CONTROL								= 授权管理
+IDS_GET_KEY_COUNT							= 查看总共次数
+IDS_TO_GET_KEY								= 获取权限
+IDS_TO_RETAIN_KEY							= 回收剩余次数
+IDS_REST_KEY								= 本次剩余次数
+
+SOLVE_HEAD									= 解决方案:\r\n
+SOLVE_NONE									= 无
+SOLVE_INTERACT_DETECT						= 使用干扰检测
+SOLVE_LARGER_ECC							= 加大ECC
+SOLVE_HALF_DETECT							= 使用半容量检测
+SOLVE_LARGER_ECC_HALF_DETECT				= 使用半容量检测并且加大ECC
+SOLVE_RBPIN_DETECT							= 检测FLASH R/B PIN是否接线正确
+SOLVE_WPPIN_DETECT							= 检测FLASH WP PIN是否正常
+
+;MP Tool
+IDS_MAIN_UI_MPINFO							= 放大镜
+IDS_STR_UDISK_MPINFO						= U盘设备量产信息
+IDS_STR_SCAN_INFO							= 扫描设置信息
+IDS_STR_MP_VER								= MP 版本：  
+IDS_STR_CTL									= 主控类型： 
+IDS_STR_OPTIMIZE_MODE						= 优化方式： 
+IDS_STR_CAP_OPTIMIZE_MODE					= U盘容量优先
+IDS_STR_SPEED_OPTIMIZE_MODE					= U盘速度优先
+IDS_STR_SCAN_MODE							= 扫描方式： 
+IDS_STR_HLF_MODE							= 高级格式化
+IDS_STR_LLF_MODE							= 低级格式化
+IDS_STR_LEVEL_NEW							= 全新
+IDS_STR_LEVEL_NEWAA55						= 全新 + AA55
+IDS_STR_LEVEL_ERASE_NEW						= 清空 + 全新
+IDS_STR_LEVEL_FULL							= 全面扫描
+IDS_STR_LEVEL_FAST							= 快速扫描
+IDS_STR_SCAN_LEVEL							= 扫描级别： 
+IDS_STR_MP_INFO								= 重新量产设置信息
+IDS_STR_NO_IBBT_ERROR						= 没有找到量产信息
+IDS_STR_OPEN_DEVICE_ERROR					= 打开装置错误
+IDS_STR_GET_DEVICE_MODE_ERROR				= 无效设备
+IDS_STR_GET_FLASH_ID_ERROR					= 获取FLASH ID错误
+IDS_STR_NO_FLASH_IN_DEVICE_ERROR			= 未检测到Flash
+IDS_STR_UNKNOW_FLASH_ERROR					= Flash类型未知
+IDS_STR_MISS_BIN_FILE_ERROR					= 未找到相应的BIN文件
+IDS_STR_MP_UPDATE_FIRMWARE_ERROR			= 更新韧体数据错误
+IDS_STR_RD_IBBT_ERROR						= 读取量产信息出错
+IDS_STR_UK_IBBT_ERROR						= 未知IBBT版本错误
+IDS_STR_STOP								= 停止
+IDS_STR_CUSTOMER_SN_ERROR					= 对不起，客户标识不匹配
+IDS_PWD_ERROR								= 密码不正确！
+IDS_STR_PASSWORD							= 密码：
+IDS_STR_OK									= 确定
+IDS_STR_CANCEL								= 取消
+IDS_STR_USER_STOP_ERROR						= 用户停止
+IDS_STR_BEGIN								= 开始
+IDS_STR_LEVEL_YSCAN							= Y扫描
+IDS_STR_LEVEL_TWICESCAN						= 二次扫描
+IDS_STR_CYCLE_TIME							= 读写回圈时间：
+IDS_STR_DEFAULT								= 默认
+IDS_STR_FLASH_STATUS						= Flash状况： 
+IDS_STR_BAD_BLOCK_SET_MODE					= 坏磁区保留方式： 
+IDS_STR_BBSM_NORMAL							= 自动计算容量
+IDS_STR_BBSM_DTSD							= 动态设定
+IDS_STR_BBSM_GDRL							= 固定容量
+IDS_STR_BBSM_BIN							= Bin 级
+IDS_STR_BBSM_EWBL							= 额外保留磁区
+IDS_STR_BBSM_MAX							= 最大值
+IDS_STR_BBSM_MIN							= 最小值
+IDS_STR_BBSM_ZBFB							= 总百分比
+IDS_STR_LEVEL_L63							= L63(34nm)黑片
+IDS_STR_MP_TIME								= 量产时间：
+IDS_STR_LLF_ECC_SET							= 原低格设定
+IDS_STR_PRODUCE_MODE						= 产品生产模式： 
+IDS_STR_PRODUCE_PRODUCT						= 成品生产
+IDS_STR_PRODUCE_BOARD						= 测试架生产
+IDS_STR_CHECK_MODE							= 检测方式：
+IDS_STR_NATURAL_CHECK						= 正常检测
+IDS_STR_HALFCAPACITY_CHECK					= 半容量检测(默认)
+IDS_STR_FORCEHALFPAGE_CHECK					= 强制半容量检测
+IDS_STR_FORCEHALFBLOCK_CHECK				= 强制奇偶Block检测
+IDS_STR_INTERFERE_CHECK						= 干扰检测
+IDS_STR_RANDOMPAGE_CHECK					= 半容量检测(较慢)
+IDS_STR_SPEC_CHECK							= 特殊检测
+IDS_STR_HYNIX_CHECK							= 特殊检测-Hynix
+IDS_STR_READ_MPINFO_ERROR					= 设备未就绪！\r\n请耐心等待几秒后再使用放大镜。
+IDS_STR_MAGNIFY_HELP_WINDOW					= 关于放大镜
+IDS_STR_MAGNIFY_TITLE						= 放大镜的功能与使用方法
+IDS_STR_MAGNIFY_FEATURES					= 功能: 获取量产信息。
+IDS_STR_MAGNIFY_INSTRUCTIONS				= 使用方法: 单击设备状态窗口。
+IDS_STR_FLASH_CHECK_SHOW_U3					= 勾选ShowU3：
+IDS_STR_FLASH_CHECK_CAP_TO_SPEED			= 勾选容量转速度：
+IDS_STR_FLASH_YES							= 是
+IDS_STR_FLASH_NO							= 否
+IDS_STR_FLASH_UNKNOW						= 未知
+
+
+[UI_SHOW_CFG_DLG]
+DLG_STS_TITLE								= 界面显示
+DLG_STS_SORT_MODE							= 分类模式
+DLG_STS_OPTIMIZE_MODE						= 优化模式
+DLG_STS_OPTIMIZE_MODE_SPEED					= 速度优先
+DLG_STS_OPTIMIZE_MODE_CAP					= 容量优先
+DLG_STS_DETECT_RESULT_SHOW					= 侦测结果显示
+DLG_STS_MPED_RESULT_SHOW					= 量产结果显示
+DLG_STS_BIN_LEVEL							= BIN级
+DLG_STS_SN									= 序列号
+DLG_STS_BAD_BLOCK_NUM						= 坏块数
+DLG_STS_MP_TIME								= 量产时间
+DLG_STS_MAIN_STATUS_TEXT_COLOR				= 主状态框文本颜色
+DLG_STS_SUB_STATUS_TEXT_COLOR				= 次状态框文本颜色
+DLG_STS_DEFAULT								= 默认
+DLG_STS_COLOR_BIN_LEVEL						= Bin级颜色
+DLG_STS_COLOR_SORT_MODE						= 分类模式颜色
+DLG_STS_OPTIMIZE_MODE_MODE					= 优化模式颜色
+DLG_STS_MP_DEVICE_NUM						= 同时量产个数
+DLG_STS_OTHER_SETTINGS					=其他设定
+DLG_STS_SHOW_WHEN_PORTS_REMOVED = 移除装置后是否显示：
+DLG_STS_SHOW_NONE_AFTER_REMOVED = 不显示
+DLG_STS_SHOW_ALL_AFTER_REMOVED = 显示所有
+DLG_STS_SHOW_LAST_AFTER_REMOVED = 仅显示最后一个移除装置
+[FMT_STR]
+FMT_STR_TIME								= 时间: %s
+FMT_STR_CAP									= 容量: 
+FMT_STR_BAD_BLOCK							= 坏块数: %d/%d
+
+[UI_ID_A]
+DETECT_RESULT_FMT_MAIN						= $(NAME) $(CAP)\r\n$(ID) $(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME) $(CAP)$(TOG)\r\n$(BB) $(SN) $(SORT)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+SORTING_RESULT_FMT_MAIN					= Sorting完成! $(TIME)\r\n$(CAP) $(BB)
+SORTING_RESULT_FMT_SUB					= 
+[UI_ID_B]
+DETECT_RESULT_FMT_MAIN						= $(NAME)\r\n$(CAP)\r\n$(ID)\r\n$(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME)\r\n$(CAP)$(TOG)\r\n$(BB)\r\n$(SN)\r\n$(SORT)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+SORTING_RESULT_FMT_MAIN					= Sorting完成! $(TIME)\r\n$(CAP) $(BB)
+SORTING_RESULT_FMT_SUB					= 
+[UI_ID_C]
+DETECT_RESULT_FMT_MAIN						= $(NAME)\r\n$(ID)\r\n$(CAP)$(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME)\r\n$(CAP)$(SORT)\r\n$(BB)\r\n$(SN)$(TOG)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+SORTING_RESULT_FMT_MAIN					= Sorting完成! $(TIME)\r\n$(CAP) $(BB)
+SORTING_RESULT_FMT_SUB					= 

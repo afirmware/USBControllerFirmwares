@@ -1,0 +1,3 @@
+[Customize Info]
+Serial Number1=11
+Serial Number=11

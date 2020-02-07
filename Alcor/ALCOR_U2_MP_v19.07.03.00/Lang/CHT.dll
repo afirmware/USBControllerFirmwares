@@ -1,0 +1,523 @@
+[IDS]
+;string for main user interface
+IDS_MAIN_UI_CUR_SETTING						= ·í«e³]©w
+IDS_MAIN_UI_DISK_MODE						= ¸Ë¸m¤è¦¡: 
+IDS_MAIN_UI_BADBLOCK						= Ãa¶ô³]©w: 
+IDS_MAIN_UI_SN								= §Ç¸¹:
+IDS_MAIN_UI_MP_MODE							= Àu¤Æ¤è¦¡: 
+IDS_MAIN_UI_SCAN_MODE						= ±½´y¤è¦¡: 
+IDS_MAIN_UI_SCAN_LEVEL						= ±½´y¯Å§O: 
+IDS_MAIN_UI_START							= ¶}©l(&A)
+IDS_MAIN_UI_SETUP							= ³]©w(&S)
+IDS_MAIN_UI_REFRESH							= §ó·s(&R)
+IDS_MAIN_UI_STOP							= °±¤î(&P)
+IDS_MAIN_UI_EJECT							= ¼u¥X(&E)
+IDS_MAIN_UI_STATUS              			= ª¬ºA
+IDS_MAIN_UI_HELP							= À°§U, ½Ð«öF1
+IDS_MAIN_UI_AUTOMP							= ¦Û°Ê¶q²£
+IDS_MAIN_UI_ERROR_ANALYSE 					= ¥¢±Ñ¤ÀªR
+IDS_MAIN_UI_MANUAL_REFRESH 					= ¤â°Ê§ó·s
+
+;string for setup user interface
+IDS_SETUP_UI_SHEET_FLASH					= °O¾ÐÅé³]©w
+IDS_SETUP_UI_SHEET_MODE						= ¸Ë¸m¤è¦¡³]©w
+IDS_SETUP_UI_SHEET_DISK_INFO				= U½L«H®§³]©w
+IDS_SETUP_UI_SHEET_BADBLOCK					= ÃaºÏ°Ï³]©w
+IDS_SETUP_UI_SHEET_AUTOPRODUCTION 			= ¨ä¥¦³]©w
+IDS_SETUP_UI_SHEET_SORTING_TEST 			= Flash¤ÀªR
+IDS_SETUP_UI_SHEET_MP3						= MP3³]©w
+IDS_SETUP_UI_SHEET_STRUCT					= µ²ºcÀË´ú
+IDS_SETUP_UI_IMPORT_SET						= ¾É¤J°t¸m
+IDS_SETUP_UI_EXPORT_SET						= ¶×¥X°t¸m
+IDS_SETUP_UI_IMPORT_TITLE					= ¾É¤JMP³]©w«H®§
+IDS_SETUP_UI_EXPORT_TITLE					= ¶×¥XMP³]©w«H®§
+IDS_SETUP_UI_IMPORT_SUCCESS					= ¾É¤J°t¸m¦¨¥\
+IDS_SETUP_UI_EXPORT_SUCCESS					= ¶×¥X°t¸m¦¨¥\
+
+;MessageBox
+IDS_SETUP_MESSAGE_NOTE          			= ´£¥Ü
+IDS_SETUP_MESSAGE_MY_COMPUTER   			= §Úªº¹q¸£:\\
+IDS_SETUP_MESSAGE_DIR           			= ¥Ø¿ý¸ê®Æ§¨
+IDS_SETUP_MESSAGE_DOC           			= ½Ð¿ï¾ÜÀÉ
+IDS_SETUP_MESSAGE_CAP           			= ¹w³]®e¶q¤£¯à¬°¹s¡A½Ð­«·s³]©w¡C
+
+; Password Dialog
+IDS_SETUP_UI_CHANGE_PWD						= §ó§ï±K½X
+IDS_SETUP_UI_PWD							= ±K½X
+IDS_SETUP_UI_NEW_PWD						= ·s±K½X
+IDS_SETUP_UI_CHECK_PWD						= ±K½X½T»{
+IDS_SETUP_UI_REMEMBER_PWD					= °O¦í±K½X
+IDS_SETUP_UI_EDIT_SUCCESS					= ­×§ï±K½X¦¨¥\!
+IDS_SETUP_UI_PWD_DIFFERENT					= ¨â¦¸¿é¤Jªº±K½X¤£¬Û¦P!
+IDS_SETUP_UI_PWD_ERROR						= ±K½X¤£¥¿½T!
+IDS_SETUP_UI_OK								= ½T©w
+IDS_SETUP_UI_CANCEL							= ¨ú®ø
+
+;key control
+IDS_KEY_CONTROL								= ±ÂÅvºÞ²z
+IDS_GET_KEY_COUNT							= ¬d¬ÝÁ`¦@¦¸¼Æ
+IDS_TO_GET_KEY								= Àò¨ú³\¥iÅv
+IDS_TO_RETAIN_KEY							= ¦^¦¬³Ñ¾l¦¸¼Æ
+IDS_REST_KEY								= ¥»¦¸³Ñ¾l¦¸¼Æ
+
+; Flash Sheet
+IDS_SETUP_UI_TITLE							= ³]©w
+IDS_SETUP_UI_FLASH_SET						= °O¾ÐÅéÃþ§O
+IDS_SETUP_UI_UNAUTO_DETECT					= ¸T¤î¦Û°ÊÀË´ú
+IDS_SETUP_UI_FLASH_TYPE						= FlashÃþ«¬
+IDS_SETUP_UI_FLASH_NUM						= Flash¼Æ¶q
+IDS_SETUP_UI_RW_CYCLE           			= Åª¼g¶g´Á
+IDS_SETUP_UI_CHANNEL            			= ³q¹D
+IDS_SETUP_UI_SINGLE_CHANNEL     			= ³æ³q¹D
+IDS_SETUP_UI_DUAL_CHANNEL       			= Âù³q¹D
+IDS_SETUP_UI_MP_SET							= ¶q²£³]©w
+IDS_SETUP_UI_MP_MODE						= Àu¤Æ¤è¦¡
+IDS_SETUP_UI_SPEED_OPTIMIZE					= U½L³t«×Àu¥ý
+IDS_SETUP_UI_CAP_OPTIMIZE					= U½L®e¶qÀu¥ý
+IDS_SETUP_UI_LLF_SET						= ­ì§C®æ³]©w
+IDS_SETUP_UI_OPTIMIZE_MODE					= Àu¤Æ¤è¦¡2
+IDS_SETUP_UI_OPTIMIZE_MODE_DEFAULT			= Àq»{
+IDS_SETUP_UI_OPTIMIZE_MODE_STABILITY		= Àq»{
+IDS_SETUP_UI_OPTIMIZE_MODE_CAPACITY			= ³Ì¤j®e¶q
+IDS_SETUP_UI_OPTIMIZE_MODE_YIELD_FACTOR		= ³Ì°ªª½³q²v
+IDS_SETUP_UI_SCAN_MODE						= ±½´y¤è¦¡
+IDS_SETUP_UI_HLF_SCAN_MODE					= °ª¯Å®æ¦¡¤Æ
+IDS_SETUP_UI_LLF_SCAN_MODE					= §C¯Å®æ¦¡¤Æ
+IDS_SETUP_UI_SUPER_SCAN_MODE 				= ´¼¯à®æ¦¡¤Æ
+IDS_SETUP_UI_LLF							= §C®æ
+IDS_SETUP_UI_MPed 							= °ª®æ¶q²£¹L
+IDS_SETUP_UI_NEED_RE_CHECK					= ¥¢±Ñ«á¥b®e¶qÀË´ú
+IDS_SETUP_UI_FAST_MPED_CHECK				= §Ö³t°ª®æ¶q²£¹L
+IDS_SETUP_UI_INC_BADBLOCK_CHECK			 	= ¼W¥[¤W¦¸·s¼WÃa¶ô
+IDS_SETUP_UI_REMP_SCAN_MODE     			= ­«·s¶q²£
+IDS_SETUP_UI_SCAN_LEVEL         			= ±½´y¯Å§O
+IDS_SETUP_UI_HLF_10							= ¥þ·s
+IDS_SETUP_UI_HLF_20							= ¥þ·s + AA55
+IDS_SETUP_UI_HLF_30							= ¶q²£¹L
+IDS_SETUP_UI_HLF_40							= ²MªÅ
+IDS_SETUP_UI_HLF_50							= ¶ÈÅª¼Ð°OÃa¶ô
+IDS_SETUP_UI_HLF_60							= ²MªÅ + ¥þ·s
+IDS_SETUP_UI_HLF_70							= Åª®e¶q
+IDS_SETUP_UI_HLF_80							= ÅªU3®e¶q
+IDS_SETUP_UI_LLF_10							= ¥þ­±±½´y1
+IDS_SETUP_UI_LLF_20							= ¥þ­±±½´y2
+IDS_SETUP_UI_LLF_30							= ¥þ­±±½´y3
+IDS_SETUP_UI_LLF_50							= ¥þ­±±½´y4
+IDS_SETUP_UI_LLF_80							= L63(34nm)¶Â¤ù
+IDS_SETUP_UI_LLF_11							= §Ö³t±½´y1
+IDS_SETUP_UI_LLF_12							= §Ö³t±½´y2
+IDS_SETUP_UI_LLF_13							= §Ö³t±½´y3
+IDS_SETUP_UI_LLF_14							= §Ö³t±½´y4
+IDS_SETUP_UI_REMP_10						= ¤w¶q²£¹L
+IDS_SETUP_UI_OTHER_SET						= ¨ä¥¦³]©w
+IDS_SETUP_UI_ERASE_AFTER_ERASE				= ¶q²£«áÀ¿°£Flash
+IDS_SETUP_UI_SORTING_SET        			= Flash¿z¿ï
+IDS_SETUP_UI_DEFAULT            			= (Àq»{)
+IDS_SETUP_UI_BURN_SET           			= ¦Ñ¤Æ³]©w
+IDS_SETUP_UI_BURN_CHECK         			= »Ý­n¦Ñ¤Æ
+IDS_SETUP_UI_BURN_TIME          			= °é
+IDS_SETUP_UI_RW_TEST            			= ³t«×´ú¸Õ
+IDS_SETUP_UI_RW_TEST_FILE_CMP				= File CMP
+IDS_SETUP_UI_RW_TEST_CAP					= CAP MB
+IDS_SETUP_UI_RW_TEST_BIN					= Bin
+IDS_SETUP_UI_RW_TEST_PORT					= Port Num
+IDS_SETUP_UI_RW_TEST_WRITE					= WriteMB/s
+IDS_SETUP_UI_RW_TEST_READ					= ReadMB/s
+IDS_SETUP_UI_RW_TEST_SET_STATIC				= MP RWTest
+IDS_SETUP_UI_USE_SPECIAL_CLASS				= ¨Ï¥Î¯S®í¤ÀÃþ
+IDS_SETUP_UI_CHANGE_MP_MODE_CAP				= Âà¬°U½L®e¶qÀu¥ý, ·í®e¶q¤p©ó
+IDS_SETUP_UI_CHANGE_MP_MODE_SPEED			= Âà¬°U½L³t«×Àu¥ý, ·í®e¶q¤j©ó
+IDS_SETUP_UI_TWICE_SCAN						= ±½´y¦¸¼Æ
+IDS_SETUP_UI_ECC_REVISE_LEVEL				= §C®æ®Õ¥¿
+IDS_SETUP_UI_ENHANCE						= Ecc·L½Õ¯Å§O
+IDS_SETUP_UI_SETUP_ENHANCE					= §ï¶i³]©w
+IDS_SETUP_UI_SECTOR_ERR						= Sector¤¹³\ªº¿ù»~¼Æ
+IDS_SETUP_UI_ADVANCEDLY						= °ª¯Å³]©w
+IDS_SETUP_UI_ECC_DEFAULT    				= Àq»{
+IDS_SETUP_UI_SECTOR_ECCLEVEL				= ¯Å§O
+IDS_SETUP_UI_NATURAL						= ¥¿±`
+IDS_SETUP_UI_NATURAL_CHECK  				= ¥¿±`ÀË´ú
+IDS_SETUP_UI_DISTURB_CHECK					= ¤zÂZÀË´ú
+IDS_SETUP_UI_HYNIX_CHECK					= ¯S®íÀË´ú-Hynix
+IDS_SETUP_UI_SPEC_CHECK						= ¯S®íÀË´ú
+IDS_SETUP_UI_LLF_FORMAT						= §C®æÀË´ú
+IDS_SETUP_UI_HALFCAPACITY_CHECK 			= ¥b®e¶qÀË´ú(¹w³])
+IDS_SETUP_UI_RANDOMPAGE_CHECK 				= ¥b®e¶qÀË´ú(¸ûºC)
+IDS_SETUP_UI_FORCE_HALF_CHECK 				= ±j¨î¥b®e¶qÀË´ú
+IDS_SETUP_UI_ECC_SET        				= ­ì§C®æ³]©w(Àq»{)
+IDS_SETUP_UI_STRICT         				= (ÄY®æ)
+IDS_SETUP_UI_LOOSE	        				= (¼eÃP)
+IDS_SETUP_UI_SPECIAL_FLASH					= ¯S®íª¬ªpFlash
+IDS_SETUP_UI_SPECIAL_FLASH_NORMAL 			= ¥¿±`(Àq»{)
+IDS_SETUP_UI_SPECIAL_FLASH_STARRAM 			= L63(StarRam)
+IDS_SETUP_UI_COMPARE_OPTIMIZATION 			= Àu¤Æ¹ï¤ñ
+IDS_SETUP_UI_FORCE_MULTI_PLANE_LLF			= All Port LLF, Force MultiPlaneOP.< Shorten liberian time, May affect Capacity >
+
+;Product Mode
+IDS_PRODUCT_MODE                            = ¥Í²£¤è¦¡Œd
+IDS_PRODUCT_MODE_SORT                       = ´ú¸Õ¬[SORT
+IDS_PRODUCT_MODE_PRODUCT                    = ¦¨«~¥Í²£
+IDS_SHOW_PRODUCT_MODE			    = ¤U¦¸¤£¦A´£¥Ü
+
+//Enhance UI
+IDS_ENHANCE_UI_BK							= ¼W±jÅª¼gÃ­©w©Ê
+IDS_ENHANCE_UI_BK_ON						= ­°§C¼g³t«×¡A®e¶q¦³¥i¯à­°§C
+IDS_ENHANCE_UI_BK_OFF						= ¥i¯à·|¼vÅTÅª¼gÃ­©w©Ê
+
+//Auto Production
+IDS_SETUP_UI_AUTO_FLASH_SET					= ³]©w°O¾ÐÅé
+IDS_SETUP_UI_AUTO_FLASH_LIST 				= FlashÃþ«¬
+IDS_SETUP_UI_AUTO_FIX_FLASH					= «ü©wFlash¦WºÙ
+IDS_SETUP_UI_AUTO_SET_DELAY 				= ³]©w©µ®É
+IDS_SETUP_UI_AUTO_FIX_ID					= «ü©wFlashID 
+IDS_SETUP_UI_AUTO_PRODUCTION				= ¦Û°Ê¶q²£³]©w
+IDS_SETUP_UI_AUTO_FORCE_FLASH 				= ±j¨î«ü©wFlash
+IDS_SETUP_UI_AUTO_DEFAULT_NOTSPECIFY_FLASH 	= ¤£«ü©wFlash«¬¸¹
+IDS_SETUP_UI_AUTO_WHETHER_SHOW 				= Åã¥Ü¬O§_¤ä´©¨ä¥¦Ãþ«¬¥D±±
+IDS_SETUP_UI_AUTO_WHETHER_SHOW1				= Åã¥Ü83¬O§_¤ä´©AP½L
+IDS_SETUP_UI_ADJUSTMENT_POWER				= ½Õ¸`¹q¬y
+IDS_SETUP_UI_ADJUSTMENT_POWER_ERROR 		= ¦¹¸Ë¸m¤£¤ä´©½Õ¸`¹q¬y
+
+; Mode Sheet
+IDS_SETUP_UI_DISK_MODE						= ¼Ò¦¡³]©w
+IDS_SETUP_UI_AP_DISK						= ´¶³q½L
+IDS_SETUP_UI_FIXED_DISK						= ¥»¦a½L
+IDS_SETUP_UI_READONLY_DISK					= °ßÅª½L
+IDS_SETUP_UI_PASSWORD_DISK					= ¥[±K½L
+IDS_SETUP_UI_VIRTUAL_DISK					= ¹w³]®e¶q
+IDS_SETUP_UI_DEFAULT_AUTORUN				= ¹w³]¤è¦¡
+IDS_SETUP_UI_MANUAL_AUTORUN					= ¤â°Ê¤è¦¡
+IDS_SETUP_UI_PARTITION_SET					= ¤À°Ï³]©w
+IDS_SETUP_UI_VOLUMEL						= ¼ÐÅÒ
+IDS_SETUP_UI_DISK_SN            			= ºÏºÐ§Ç¸¹
+IDS_SETUP_UI_COPY_TO_PARTITION1 			= «þ¨©¨ì¤À°Ï1
+IDS_SETUP_UI_COPY_TO_PARTITION2 			= «þ¨©¨ì¤À°Ï2
+IDS_SETUP_UI_PASSWORD_DISK_SET				= ¥[±K½L³]©w
+IDS_SETUP_UI_PASSWORD						= ±K½X
+IDS_SETUP_UI_READONLY_DISK_SET				= °ßÅª½L³]©w
+IDS_SETUP_UI_FILE_SET						= ÀÉ¿ï¾Ü
+IDS_SETUP_UI_LED_SET						= LED³]©w
+IDS_SETUP_UI_LED_TYPE						= LEDÀW²v
+IDS_SETUP_UI_IDLESSE						= ªÅ¶¢ª¬ºA
+IDS_SETUP_UI_RESERVE_USER					= ¤G¦¸¶}µo³]©w
+IDS_SETUP_UI_RESERVE_SIZE					= ÁôÂÃ°Ï
+IDS_SETUP_UI_AUTHORIZE						= ÁôÂÃ°Ï±ÂÅv½X
+IDS_SETUP_UI_RESERVE_NOTE					= (0 = ¤£³]©w)
+IDS_SETUP_UI_WARNING            			= ½Ð¤Å¶W¹LFlash¹ê»Ú®e¶q,§_«h·|³y¦¨U½L¤£Ã­©w
+IDS_SETUP_UI_ONE                			= ¤@­Ó½L²Å
+IDS_SETUP_UI_TWO                			= ¨â­Ó½L²Å
+IDS_SETUP_UI_AES_DISK						= AES½L
+IDS_SETUP_UI_MP_AES_DISK					= AES½L½Ð¨Ï¥Î±M¥Î¤u¨ã
+
+; DiskInfo Sheet
+IDS_SETUP_UI_CUSTOMER_INFO 					= «È¤á¸ê°T³]©w
+IDS_SETUP_UI_SCSI_VS						= «È¤á¸ê°T
+IDS_SETUP_UI_SCSI_PS						= ²£«~¸ê°T
+IDS_SETUP_UI_DSN							= ÀH¾÷³]©w
+IDS_SETUP_UI_FSN							= ©T©w
+IDS_SETUP_UI_ISN							= »¼¼W
+IDS_SETUP_UI_CSN							= ©w¨îºtºâªk
+IDS_SETUP_UI_ASN							= «ö®É¶¡
+IDS_SETUP_UI_SN_SET							= §Ç¸¹³]©w
+IDS_SETUP_UI_SN								= §Ç¸¹
+IDS_SETUP_UI_PREFIX_SN						= «e¸m
+IDS_SETUP_UI_START_SN						= ¶}©l
+IDS_SETUP_UI_COUNT_SN						= ­p¼Æ
+IDS_SETUP_UI_DIGIT8             			= 8¦ì§Ç¸¹
+IDS_SETUP_UI_DIGIT20            			= 20¦ì§Ç¸¹
+IDS_SETUP_UI_DIGIT_SPEC						= ³]©w§Ç¸¹(<=30¦ì)
+
+; BadBlock Sheet
+IDS_SETUP_UI_BADBLOCK_SET       			= ÃaºÏ°Ï
+IDS_SETUP_UI_ABB							= ¦Û°Ê­pºâ®e¶q
+IDS_SETUP_UI_DBB							= °ÊºA³]©w
+IDS_SETUP_UI_CBB							= ÀRºA³]©w
+IDS_SETUP_UI_FIXCAP							= Bin ¯Å
+IDS_SETUP_UI_EXTRA_RESERVE					= ÃB¥~«O¯dºÏ°Ï
+IDS_SETUP_UI_MIN_CAP						= ³Ì¤p­È
+IDS_SETUP_UI_MAX_CAP						= ³Ì¤j­È
+IDS_SETUP_UI_BADBLOCK_PERCENT				= Á`¦Ê¤À¤ñ
+IDS_SETUP_UI_FILE_SYSTEM					= ÀÉ®×¨t²Î
+IDS_SETUP_UNINSTALL_DRIVER      			= Ãö³¬MP®É ¨ø¸üÅX°Ê
+IDS_SETUP_ATTO_OPTIMIZE						= ATTOÀu¤Æ
+IDS_SETUP_UI_FIXCAPACITY					= ©T©w®e¶q
+IDS_SETUP_UI_CAP_SETERROR					= ®e¶q³]¸m¿ù»~
+IDS_SETUP_UI_HUB_PORT           			= ©T©w°ð³]¸m
+IDS_SETUP_UI_INSERT_ORDER_FIX_HUB           = ¸Ë¸m´¡¤J¶¶§Ç(©T©wHUB)
+IDS_SETUP_UI_INSERT_ORDER_NOT_FIX_HUB       = ¸Ë¸m´¡¤J¶¶§Ç(¤£©T©wHUB)
+IDS_SETUP_UI_INSERT_REVERSAL_ORDER_FIX_HUB		=	HUB¤ºPORT§Ç¸¹¹ïÂà
+IDS_SETUP_UI_USB_STOR_ENUM_ORDER			= ÅX°ÊªTÁ|¶¶§Ç
+IDS_SETUP_UI_BY_HUB_PROFILE						= ¨Ì©T©w°ð°t»sÀÉ
+IDS_SETUP_UI_NORMAL             			= ¥¿±`
+IDS_SETUP_UI_DEVICE_COUNT       			= ¸Ë¸m­Ó¼Æ¡G
+IDS_SETUP_UI_CDROM_LABEL        			= CD-ROM¼ÐÅÒ
+IDS_SETUP_UI_NTFS_NOTE						= ¥u¤ä´©¤@­Ó½L²Å¼Ò¦¡
+IDS_RUNNING_PORT_NUM							= ¦P®É¶q²£­Ó¼Æ
+IDS_SELECT_NEW_UI									= ¨Ï¥Î·s¤¶­±
+
+;SortingTest Sheet
+IDS_SETUP_UI_SORTING_TEST       			= ¤ÀªRFlashª¬ªp
+IDS_SETUP_UI_BLOCK_COUNT        			= ´ú¸Õ°Ï¶ô¼Æ
+IDS_SETUP_UI_METHOD             			= ´ú¸Õ¤èªk
+IDS_SETUP_UI_ALLOW_BLOCK        			= ¤¹³\Ãa¶ô¼Æ
+IDS_SETUP_UI_PATTERN_SELECT     			= ±½´yÀÉ¿ï¾Ü
+IDS_SETUP_UI_BROWSE             			= ¬yÄý
+IDS_SETUP_UI_CREATE             			= ³Ð«Ø
+
+;Check Struct Sheet
+IDS_SETUP_UI_AUTO_CHECK						= ¦Û°ÊÀË´úµ²ºc
+IDS_SETUP_UI_FORCE_CHECK					= ±j¨î«ü©wµ²ºc
+IDS_SETUP_UI_SHARE_RB						= RBPinµu±µ
+IDS_SETUP_UI_CEDIE_TABLE					= CEDieµ²ºc
+
+;Driver
+IDS_DRIVER_DEL_VIDPID						= §R°£VID/PID
+IDS_DRIVER_ADD_VIDPID						= ¼W¥[VID/PID
+IDS_DRIVER_LIST_VIDPID						= VID/PID¦Cªí:
+IDS_DRIVER_INSERVET_DEVICE_VIDPID			= ´¡¤J¸Ë¸mªºVID/PID:
+IDS_DRIVER_EXIT_SAVE						= «O¦s¨Ã¦w¸ËÅX°Ê
+IDS_DRIVER_CANCEL							= ¨ú®ø
+
+;string for show current status
+IDS_STS_ERASE_ALL							= ²MªÅ¶i¦æ¤¤... %2.1f%%
+IDS_STS_SCAN_BAD_BLOCK						= ±½´yÃa¶ô¶i¦æ¤¤... %2.1f%%
+IDS_STS_FORMAT_DEVICE						= ®æ¦¡¤Æ¶i¦æ¤¤...
+IDS_STS_PRE_COPY_FILE						= ´¶³q½L¹w«þ¨©ÀÉ¤¤...
+IDS_STS_READONLY_COPY           			= «þ¨©°ßÅª½LÀÉ...
+IDS_STS_AP_COPY                 			= ¼g¤JAP¤u¨ã...
+IDS_STR_GETBADBLOCKINFO						= ÀË¬dÃa¶ô¶i¦æ¤¤...
+IDS_STS_MARK_BAD_BLOCK						= ¼Ð°OÃa¶ô¶i¦æ¤¤... %2.1f%%
+IDS_STS_NOTSUPORT_SD						= SD¼È¤£¤ä«ù
+IDS_STS_ERASE_RESULT						= "À¿°£§¹¦¨! ®É¶¡: %s"
+IDS_STS_SORTING_RESULT						= "Sorting§¹¦¨! ®É¶¡: %s\r\n®e¶q:%.1fM,Ãa¶ô¼Æ: %d/%d"
+IDS_STS_RD_BAD_BLOCK_INFO					= Åª¨úÃa¶ô«H®§ %2.1f%%
+IDS_STS_MP_ERROR_RESULT						= "%s\r\nÃa¶ô¼Æ: %d/%d"
+IDS_STS_SPECIAL_HLF    						= "°ª®æ¤¤..."
+IDS_STS_USE_89AN							= " [¶È89AN]"
+
+;string for show error information
+IDS_ERR_NO_CONFIG_FILE						= ¸ü¤J°t»sÀÉ¥X¿ù
+IDS_ERR_NO_FLASHLIST_FILE					= ¸ü¤JFlashList.ini¤å¥ó¥X¿ù
+IDS_ERR_LOAD_LLF_DLL						= ¸ü¤JLLF.DLL¥X¿ù
+IDS_ERR_CONTROLLER_CHANGE					= ¶°½u¾¹ª¬ºA§ïÅÜ, ¶q²£¤u¨ã±NÃö³¬! \r\n½Ð¥ý©Þ¥X©Ò¦³U½L³]³Æ, ¦A¥´¶}¶q²£¤u¨ã!
+IDS_ERR_CHANGE_RERUN						= ¶°½u¾¹¸Ë¸m³]¸m§ïÅÜ¡A½Ð©Þ°£©Ò¦³¸Ë¸m¡I\r\n\r\n¬O§_­«·s¶}¾÷¶q²£µ{¦¡¡H
+IDS_ERR_CHANGE_UI							= §ïÅÜµ{¦¡¤¶­±¡A¥²¶·­«·s¶}¾÷µ{¦¡¡I\r\n\r\n¬O§_Ä~Äò¡H
+IDS_ERR_SEL_FLASH_NAME						= ½Ð«ü©wFlash«¬¸¹
+
+IDS_ERR_INVALID_DEVECE						= µL®Ä³]³Æ
+IDS_ERR_NO_SUPPORT_DEVICE_MODE				= ¤£¤ä«ù¦¹«¬¸¹ªº¥D±±
+IDS_ERR_GET_DEVICE_CONFIG					= Åª¸Ë¸m¸ê°T¿ù
+IDS_ERR_GET_FLASH_ID						= ÅªFlash ID¿ù
+IDS_ERR_NO_FLASH_IN_DEVICE					= ¥¼ÀË´ú¨ìFlash
+IDS_ERR_DUAL_CHANNEL_FALSE_ID				= Âù³q¹DFlash ID¤£¤@­P
+IDS_ERR_MUTI_DIE_FALSE_ID					= ¦hCE Flash ID¤£¤@­P
+IDS_ERR_UNKNOW_FLASH_ERROR					= FlashÃþ«¬¥¼ª¾
+IDS_ERR_NO_SUPPORT_FLASH					= ¤£¤ä«ù¦¹«¬¸¹Flash
+IDS_ERR_GET_MODULE_ETURE					= ÅªModule¯S©Ê¥¢±Ñ
+IDS_ERR_NO_SUPPORT_DUAL_CHANNEL				= ¤£¤ä«ùÂù³q¹D
+IDS_ERR_FLASH_LIST_NOT_EXISTS				= Flash¦Cªí¤£¦s¦b
+IDS_ERR_NOT_SPECIFY_FLASH					= «D«ü©wFlash
+IDS_ERR_DIFFERENT_FLASH_IN_DEVICE			= ³]³Æ¤¤¦³¤£¦PªºFlash
+
+IDS_ERR_NO_SORT_CLASS_FORCE_HALF_PAGE_MODE 	= µL¥i¥Î¤ÀÃþ
+IDS_ERR_TOO_MANY_BAD_BLOCK					= ÃaºÏ°Ï¹L¦h
+IDS_ERR_NO_ENOUGH_CAP 						= ®e¶q¤£¨¬
+IDS_ERR_MISS_BIN_FILE						= §ä¤£¨ìBinÀÉ
+IDS_ERR_READ_LCM_FILE						= §ä¤£¨ìLCMÀÉ
+IDS_ERR_LOAD_FIRMWARE_CODE					= ¸ü¤J¶´Åé¼Æ¾Ú¥¢±Ñ
+IDS_ERR_MISS_CG3_FILE						= §ä¤£¨ìKG3ÀÉ
+IDS_ERR_GET_SORTING_RESULT					= µL¥i¥Î¤ÀÃþ
+IDS_ERR_READ_BAD_BLOCK_INFO					= ÅªÃa¶ô¸ê°T¥¢±Ñ
+IDS_ERR_LOAD_CONFIG							= ¸ü¤J°t»s¸ê°T¥¢±Ñ
+IDS_ERR_HARDWARE_WRITE_PROTECT 				= µwÅé¨¾¼g
+IDS_ERR_GET_USERPASSWORD_STATUS 			= Åªª¬ºA¸ê°T¿ù
+IDS_ERR_COPY_FILE							= «þ¨©ÀÉ¥¢±Ñ
+IDS_ERR_RW_TEST								= Åª¼g´ú¸Õ¥¢±Ñ
+IDS_ERR_CREATE_PARTITION					= ³Ð«ØÀÉ®×¨t²Î¥¢±Ñ
+IDS_ERR_USER_STOP							= ¥Î¤á°±¤î
+IDS_ERR_DEVICE_REMOVE						= ¸Ë¸m²¾°£
+IDS_ERR_UNDEFINE_SCAN_LEVEL					= ¥¼©w¸q±½´y¯Å§O
+
+IDS_ERR_CREATE_AES  						= ³Ð«ØAES½L¥¢±Ñ
+IDS_ERR_NO_SUPPORT_AES  					= ¤£¤ä«ùAES½L
+IDS_ERR_ONLY_SUPPORT_AP_DISK 				= FLASH¥u¤ä«ù´¶³q½L
+
+IDS_ERR_BURNINTEST              			= ÀÉ¤ñ¹ï¥¢±Ñ!
+IDS_ERR_WRITEFILE							= ¼gÀÉ¥¢±Ñ!
+IDS_ERR_CREATE_DIRECTORY					= ³Ð«ØÀÉ¥Ø¿ý¥¢±Ñ!
+
+IDS_ERR_WRIBBT								= ¼gÃa¶ô¸ê°T¿ù»~
+IDS_ERR_RDIBBT								= ÅªÃa¶ô¸ê°T¿ù»~
+IDS_ERR_MATCHIBBT							= ¨â­Ó§Ö°{°O¾ÐÅé¦³¤£¦P¤ÀÃþ
+IDS_ERR_NOIBBT								= ¨S¦³§ä¨ìÃa¶ô¸ê°T
+IDS_ERR_UNKNOWN_IBBT_VERSION				= ¥¼ª¾ªºÃa¶ô¸ê°Tª©¥»
+IDS_ERR_ECC_BIG_NO_SUPPORT_REMP 			= ECC¤Ó¤j¡A¤£¤ä´©¶q²£¹L¥\¯à
+IDS_ERR_READ_BAD_BLOCK_TABLE 				= ÅªÃa¶ôªí¿ù»~
+IDS_ERR_CHECK_FIRMWARE_CODE     			= ÀË´ú¶´Åé¸ê®Æ¿ù»~
+
+IDS_ERR_CMD_TIMEOUT							= ©R¥O¹O®É
+IDS_ERR_RB_FREE								= R/B PIN¸}¤£°_§@¥Î
+IDS_ERR_WP_LOW								= ¨¾¼gPIN¤@ª½¬O§C¹q¦ì
+IDS_ERR_READ_HYNIX_OTP                      = ¸Ñ¨M¤è¦¡½Ð°Ñ¬Ý»¡©ú¤åÀÉ!
+IDS_ERR_MP_TIMEOUT							= ¶q²£®É¶¡¶W®É
+IDS_HAS_DIFFERENT_FLASH_ERR 				= ¦³¤£¦PªºFLASH¡A½Ð­«·sÀË´ú!
+
+IDS_ERR_Fixed_CAP_SETTED_OVERFLOW 			= ©T©w®e¶q³]¸m¶W¥XFLASH¬É­­!
+IDS_ERR_VIRTUAL_NO_DISK 					= ½Ð´¡¤J©w¨î½L¡C
+IDS_ERR_VIRTUAL_NUM_OVERFLOW 				= ¨Ï¥Î¦¸¼Æ¶W­­¡A½Ð§ó´«©w¨î½L¡C
+IDS_ERR_VIRTUAL_MP_NUM_OVERFLOW 			= ¶q²£¦¸¼Æ¶W­­,½ÐÃö³¬¶q²£¤u¨ã¡A´¡¤J©w¨î½L«á¦A¦¸¶}±Ò¶q²£¤u¨ã¡C
+IDS_ERR_USE_SPECIAL_TOOL 					= ½Ð¨Ï¥Î¯S®íª©¥»¶q²£¤u¨ã
+IDS_ERR_CAP_ERROR							= ®e¶q¤ñ¹ï¿ù»~!!!
+
+IDS_ERR_COMPARE_FILE_UNSTABLE 				= ¹ï¤ñ¤£Ã­©w
+IDS_ERR_COMPARE_FAIL 						= ¹ï¤ñ¥¢±Ñ
+IDS_ERR_SIGNAL_ABNORMAL 					= «H¸¹¤£¨}
+IDS_SAVE_HUB_PROFILE_SUCCESS			= «O¦sHub°t¸m¸ê°T¦¨¥\!\r\n
+IDS_SAVE_HUB_PROFILE_NOT_SUPPORT	= ¤£¤ä´©«O¦sHub°t¸m¸ê°T!\r\n
+IDS_MAIN_UI_SAVE_PORT_PROFILE			= ¶×¥XHub«H®§
+IDS_SAVE_HUB_PROFILE_TIP					= ¶×¥X¤§«e¡A½Ð½T»{©Ò¦³½L³£¤w³QMP»{¨ì¡H
+
+;error analyse and solve
+ANA_ERR_HEAD								= ¿ù»~¤ÀªR:\r\n
+ANA_ERR_ALL_BAD_FLASH						= FLASHÃaºÏ°Ï¤Ó¦h\r\n\r\n
+ANA_ERR_INTERACT_IN_FLASH					= FLASH¤º³¡¦³¤zÂZ\r\n\r\n
+ANA_ERR_ECC_TOO_SMALL						= ECC¶}ªº¹L¤p\r\n\r\n
+ANA_ERR_BLOCK_MODE							= BLOCK¼Ò¦¡¤U¥þÃa\r\n\r\n
+ANA_ERR_RBPIN_BAD							= R/B PIN ¤£°_§@¥Î\r\n\r\n
+ANA_ERR_HARDWARE_WRITE_PROTECT				= µwÅé¨¾¼g¤F\r\n\r\n
+
+SOLVE_HEAD									= ¸Ñ¨M¤è®×:\r\n
+SOLVE_NONE									= µL
+SOLVE_INTERACT_DETECT						= ¨Ï¥Î¤zÂZÀË´ú
+SOLVE_LARGER_ECC							= ¥[¤jECC
+SOLVE_HALF_DETECT							= ¨Ï¥Î¥b®e¶qÀË´ú
+SOLVE_LARGER_ECC_HALF_DETECT				= ¨Ï¥Î¥b®e¶qÀË´ú¨Ã¥B¥[¤jECC
+SOLVE_RBPIN_DETECT							= ÀË´úFLASH R/B PIN¬O§_±µ½u¥¿½T
+SOLVE_WPPIN_DETECT							= ÀË´úFLASH WP PIN¬O§_¥¿±`
+
+;MP Tool
+IDS_MAIN_UI_MPINFO							= ©ñ¤jÃè
+IDS_STR_UDISK_MPINFO						= U½L³]³Æ¶q²£«H®§
+IDS_STR_SCAN_INFO							= ±½´y³]¸m«H®§
+IDS_STR_MP_VER								= MPª©¥»¡G  
+IDS_STR_CTL									= ¥D±±Ãþ«¬¡G  
+IDS_STR_OPTIMIZE_MODE						= Àu¤Æ¤è¦¡¡G
+IDS_STR_CAP_OPTIMIZE_MODE					= U½L®e¶qÀu¥ý
+IDS_STR_SPEED_OPTIMIZE_MODE					= U½L³t«×Àu¥ý
+IDS_STR_SCAN_MODE							= ±½´y¤è¦¡¡G 
+IDS_STR_HLF_MODE							= °ª¯Å®æ¦¡¤Æ
+IDS_STR_LLF_MODE							= §C¯Å®æ¦¡¤Æ
+IDS_STR_LEVEL_NEW							= ¥þ·s
+IDS_STR_LEVEL_NEWAA55						= ¥þ·s+ AA55
+IDS_STR_LEVEL_ERASE_NEW						= ²MªÅ + ¥þ·s
+IDS_STR_LEVEL_FULL							= ¥þ­±±½´y
+IDS_STR_LEVEL_FAST							= §Ö³t±½´y
+IDS_STR_SCAN_LEVEL							= ±½´y¯Å§O¡G  
+IDS_STR_MP_INFO								= ­«·s¶q²£³]¸m«H®§
+IDS_STR_NO_IBBT_ERROR						= ¨S¦³§ä¨ì¶q²£«H®§
+IDS_STR_OPEN_DEVICE_ERROR					= ¥´¶}¸Ë¸m¿ù»~
+IDS_STR_GET_DEVICE_MODE_ERROR				= µL®Ä³]³Æ
+IDS_STR_GET_FLASH_ID_ERROR					= Àò¨úFLASH ID¿ù»~
+IDS_STR_NO_FLASH_IN_DEVICE_ERROR			= ¥¼ÀË´ú¨ìFlash
+IDS_STR_UNKNOW_FLASH_ERROR					= FlashÃþ«¬¥¼ª¾ú]
+IDS_STR_MISS_BIN_FILE_ERROR					= ¥¼§ä¨ì¬ÛÀ³ªºBIN¤å¥ó
+IDS_STR_MP_UPDATE_FIRMWARE_ERROR			= §ó·s¶´Åé¼Æ¾Ú¿ù»~
+IDS_STR_RD_IBBT_ERROR						= Åª¨ú¶q²£«H®§¥X¿ù
+IDS_STR_UK_IBBT_ERROR						= ¥¼ª¾IBBTª©¥»¿ù»~
+IDS_STR_STOP								= °±¤î
+IDS_STR_CUSTOMER_SN_ERROR					= ¹ï¤£°_¡A«È¤á¼ÐÃÑ¤£¤Ç°t
+IDS_PWD_ERROR								= ±K½X¤£¥¿½Tæ
+IDS_STR_PASSWORD							= ±K½X¡G
+IDS_STR_OK									= ½T©w
+IDS_STR_CANCEL								= ¨ú®ø
+IDS_STR_USER_STOP_ERROR						= ¥Î¤á°±¤î
+IDS_STR_BEGIN								= ¶}©l
+IDS_STR_LEVEL_YSCAN							= Y±½´y
+IDS_STR_LEVEL_TWICESCAN						= ¤G¦¸±½´y
+IDS_STR_CYCLE_TIME							= Åª¼g¦^°é®É¶¡¡Gä 
+IDS_STR_DEFAULT								= Àq»{
+IDS_STR_FLASH_STATUS						= Flashª¬ªp¡Gä  
+IDS_STR_BAD_BLOCK_SET_MODE					= ÃaºÏ°Ï«O¯d¤è¦¡¡Gä  
+IDS_STR_BBSM_NORMAL							= ¦Û°Ê­pºâ®e¶q
+IDS_STR_BBSM_DTSD							= °ÊºA³]©w
+IDS_STR_BBSM_GDRL							= ©T©w®e¶q
+IDS_STR_BBSM_BIN							= Bin ¯Åýc
+IDS_STR_BBSM_EWBL							= ÃB¥~«O¯dºÏ°Ï
+IDS_STR_BBSM_MAX							= ³Ì¤j­È
+IDS_STR_BBSM_MIN							= ³Ì¤p­È
+IDS_STR_BBSM_ZBFB							= Á`¦Ê¤À¤ñ
+IDS_STR_LEVEL_L63							= L63(34nm)¶Â¤ù•[
+IDS_STR_MP_TIME								= ¶q²£®É¶¡¡Gä
+IDS_STR_LLF_ECC_SET							= ­ì§C®æ³]©w
+IDS_STR_PRODUCE_MODE						= ²£«~¥Í²£¼Ò¦¡¡Gä  
+IDS_STR_PRODUCE_PRODUCT						= ¦¨«~¥Í²£
+IDS_STR_PRODUCE_BOARD						= ´ú¸Õ¬[¥Í²£
+IDS_STR_CHECK_MODE							= ÀË´ú¤è¦¡¡Gä 
+IDS_STR_NATURAL_CHECK						= ¥¿±`ÀË´ú
+IDS_STR_HALFCAPACITY_CHECK					= ¥b®e¶qÀË´ú(Àq»{)
+IDS_STR_FORCEHALFPAGE_CHECK					= ±j¨î¥b®e¶qÀË´ú
+IDS_STR_FORCEHALFBLOCK_CHECK				= ±j¨î©_°¸BlockÀË´ú
+IDS_STR_INTERFERE_CHECK						= ¤zÂZÀË´ú
+IDS_STR_RANDOMPAGE_CHECK					= ¥b®e¶qÀË´ú(¸ûºC)
+IDS_STR_SPEC_CHECK							= ¯S®íÀË´ú
+IDS_STR_HYNIX_CHECK							= ¯S®íÀË´ú-Hynix
+IDS_STR_READ_MPINFO_ERROR					= ³]³Æ¥¼´Nºü¡I\r\n½Ð­@¤ßµ¥«Ý´X¬í¦Z¦A¨Ï¥Î©ñ¤jÃè¡C
+IDS_STR_MAGNIFY_HELP_WINDOW					= Ãö©ó©ñ¤jÃè
+IDS_STR_MAGNIFY_TITLE						= ©ñ¤jÃèªº¥\¯à»P¨Ï¥Î¤èªk
+IDS_STR_MAGNIFY_FEATURES					= ¥\¯à: Àò¨ú¶q²£«H®§¡C
+IDS_STR_MAGNIFY_INSTRUCTIONS				= ¨Ï¥Î¤èªk: ³æÀ»³]³Æª¬ºAµ¡¤f¡C
+IDS_STR_FLASH_CHECK_SHOW_U3					= Check Show U3£º
+IDS_STR_FLASH_CHECK_CAP_TO_SPEED			= Check Cap to Speed£º
+IDS_STR_FLASH_YES							= Yes
+IDS_STR_FLASH_NO							= No
+IDS_STR_FLASH_UNKNOW						= UNKNOW
+
+[UI_SHOW_CFG_DLG]
+DLG_STS_TITLE								= ¤¶­±Åã¥Ü
+DLG_STS_SORT_MODE							= ¤ÀÃþ¼Ò¦¡
+DLG_STS_OPTIMIZE_MODE						= Àu¤Æ¼Ò¦¡
+DLG_STS_OPTIMIZE_MODE_SPEED					= ³t«×Àu¥ý
+DLG_STS_OPTIMIZE_MODE_CAP					= ®e¶qÀu¥ý
+DLG_STS_DETECT_RESULT_SHOW					= °»´úµ²ªGÅã¥Ü
+DLG_STS_MPED_RESULT_SHOW					= ¶q²£µ²ªGÅã¥Ü
+DLG_STS_BIN_LEVEL							= BIN¯Å
+DLG_STS_SN									= §Ç¸¹
+DLG_STS_BAD_BLOCK_NUM						= Ãa¶ô¼Æ
+DLG_STS_MP_TIME								= ¶q²£®É¶¡
+DLG_STS_MAIN_STATUS_TEXT_COLOR				= ¥Dª¬ºA®Ø¤å¥»ÃC¦â
+DLG_STS_SUB_STATUS_TEXT_COLOR				= ¦¸ª¬ºA®Ø¤å¥»ÃC¦â
+DLG_STS_DEFAULT								= Àq»{
+DLG_STS_COLOR_BIN_LEVEL						= Bin¯ÅÃC¦â
+DLG_STS_COLOR_SORT_MODE						= ¤ÀÃþ¼Ò¦¡ÃC¦â
+DLG_STS_OPTIMIZE_MODE_MODE					= Àu¤Æ¼Ò¦¡ÃC¦â
+DLG_STS_MP_DEVICE_NUM						= ¦P®É¶q²£­Ó¼Æ
+DLG_STS_OTHER_SETTINGS					=¨ä¥L³]©w
+DLG_STS_SHOW_WHEN_PORTS_REMOVED = ²¾°£¸Ë¸m«á¬O§_Åã¥Ü¡G
+DLG_STS_SHOW_NONE_AFTER_REMOVED = ¤£Åã¥Ü
+DLG_STS_SHOW_ALL_AFTER_REMOVED = Åã¥Ü©Ò¦³
+DLG_STS_SHOW_LAST_AFTER_REMOVED = ¶ÈÅã¥Ü³Ì«á¤@­Ó²¾°£¸Ë¸m
+
+[FMT_STR]
+FMT_STR_TIME								= ®É¶¡: %s
+FMT_STR_CAP									= ®e¶q: 
+FMT_STR_BAD_BLOCK							= Ãa¶ô¼Æ: %d/%d
+
+[UI_ID_A]
+DETECT_RESULT_FMT_MAIN						= $(NAME) $(CAP)\r\n$(ID) $(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME) $(CAP)$(TOG)\r\n$(BB) $(SN) $(SORT)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+
+[UI_ID_B]
+DETECT_RESULT_FMT_MAIN						= $(NAME)\r\n$(CAP)\r\n$(ID)\r\n$(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME)\r\n$(CAP)$(TOG)\r\n$(BB)\r\n$(SN)\r\n$(SORT)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+
+[UI_ID_C]
+DETECT_RESULT_FMT_MAIN						= $(NAME)\r\n$(ID)\r\n$(CAP)$(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME)\r\n$(CAP)$(SORT)\r\n$(BB)\r\n$(SN)$(TOG)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+SORTING_RESULT_FMT_MAIN					= SortingÍê³É! $(TIME)\r\n$(CAP) $(BB)
+SORTING_RESULT_FMT_SUB					= 

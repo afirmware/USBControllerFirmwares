@@ -1,0 +1,180 @@
+[HTML_BODY]
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<title>^TITLE^</title>
+</head>
+
+<body link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" text="#000000" topmargin="0"> 
+^BODY^
+</body>
+</html>
+
+[END]
+
+[0_HTML_TABLE_GRAY]
+
+[TABLE]
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><font face="Arial" size="2"><strong>^TABLETITLE^</strong></font></td>
+  </tr>
+  <tr>
+    <table bgColor="#ffffff" border="0"
+    borderColor="#000000" borderColorDark="#000000" borderColorLight="#000000" cellSpacing="0"
+    height="^HEIGHT^" width="^WIDTH^">
+^BODY^
+</table>
+  </tr>
+</table>
+
+[HEADER]
+<td align="middle" bgColor="#dbdbdb" borderColor="#000000" height="^HEIGHT^"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[DATA]
+<td align="middle"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[END]
+
+[1_HTML_TABLE_WHITE]
+
+[TABLE]
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><font face="Arial" size="2"><strong>^TABLETITLE^</strong></font></td>
+  </tr>
+  <tr>
+<table border="0" width="^WIDTH^" height ="^HEIGHT^">
+^BODY^
+</table>
+</tr>
+</table>
+
+[HEADER]
+<td width="^WIDTH^"><p align="left"><font face="Arial" size="2"><span
+style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold">^DATA^</span></font></td>
+
+[DATA]
+<td width="^WIDTH^"><p align="left"><font face="Arial" size="2"><span
+style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold">^DATA^</span></font></td>
+
+[END]
+
+[2_HTML_TABLE_GRAYBAND]
+
+[TABLE]
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><font face="Arial" size="2"><strong>^TABLETITLE^</strong></font></td>
+  </tr>
+  <tr>
+<table bgColor="#ffffff" border="0" borderColor="#000000" borderColorDark="#000000"
+borderColorLight="#000000" cellSpacing="0" height="^HEIGHT^" width="^WIDTH^">
+^BODY^
+</table>
+</tr>
+</table>
+
+[HEADER]
+<td bgColor="#dbdbdb" borderColor="#000000" height="^HEIGHT^"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^ 1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[DATA]
+<td align="middle" borderColor="#000000" height="^HEIGHT^"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[DATAHEADER1]
+<td bgColor="#dbdbdb" borderColor="#000000" height="^HEIGHT^"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[END]
+
+[3_HTML_TABLE_GRAY2BAND]
+
+[TABLE]
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><font face="Arial" size="2"><strong>^TABLETITLE^</strong></font></td>
+  </tr>
+  <tr>
+<table bgColor="#ffffff" border="0" borderColor="#000000" cellSpacing="0" height="^HEIGHT^" width="^WIDTH^">
+^BODY^
+</table>
+</tr>
+</table>
+
+[HEADER]
+<td bgColor="#dbdbdb" borderColor="#000000" height="^HEIGHT^"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold">^DATA^</span></td>
+
+[DATA]
+<td align="middle"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[DATAHEADER1]
+<td bgColor="#dbdbdb"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+ 
+[DATAHEADER2]
+<td align="middle"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt"><font
+color=red>^DATA^</font></span></td>
+
+[END]
+
+[4_HTML_TABLE_DARKGRAYBAND]
+
+[TABLE]
+<table border="0" width="100%">
+  <tr>
+    <td width="100%"><font face="Arial" size="2"><strong>^TABLETITLE^</strong></font></td>
+  </tr>
+  <tr>
+<table bgColor="#ffffff" border="0" borderColor="#000000" cellSpacing="0" height="^HEIGHT^" width="^WIDTH^">
+^BODY^
+</table>
+</tr>
+</table>
+
+[HEADER]
+<td bgColor="#dbdbdb" borderColor="#000000" height="^HEIGHT^"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[DATA]
+<td align="middle"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt">^DATA^</span></td>
+
+[DATAHEADER1]
+<td bgColor="#c0c0c0"
+style="BORDER-BOTTOM: rgb(0,0,0) ^BOTTOM_SOLID^ 1px; BORDER-LEFT: rgb(0,0,0) ^LEFT_SOLID^ 1px; BORDER-RIGHT: rgb(0,0,0) ^RIGHT_SOLID^ 1px; BORDER-TOP: rgb(0,0,0) ^TOP_SOLID^  1px"
+width="^WIDTH^"><p align="center"><span style="FONT-FAMILY: Arial; FONT-SIZE: 9pt"><font
+color="#800080">^DATA^</font></span></td>
+ 
+[END]
+
+[5_HTML_TABLE_BITMAP]
+
+[TABLE]
+<table border="0" width="^WIDTH^">
+^BODY^
+</table>
+
+[HEADER]
+
+[DATA]
+<td><p align="center"><a href="^ADDRESS^"><img src="^DATA^"></a></td>
+[END]

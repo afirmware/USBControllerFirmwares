@@ -1,0 +1,512 @@
+[IDS]
+;string for main user interface
+IDS_MAIN_UI_CUR_SETTING			= Текущие настройки
+IDS_MAIN_UI_DISK_MODE			= Режим диска: 
+IDS_MAIN_UI_BADBLOCK			= Поиск Bad Block: 
+IDS_MAIN_UI_SN					= Серийный N:
+IDS_MAIN_UI_MP_MODE				= Оптимизация: 
+IDS_MAIN_UI_SCAN_MODE			= Scan Mode: 
+IDS_MAIN_UI_SCAN_LEVEL			= Scan Level: 
+IDS_MAIN_UI_START				= Старт(&A)
+IDS_MAIN_UI_SETUP				= Настроить(&S)
+IDS_MAIN_UI_REFRESH				= Refresh(&R)
+IDS_MAIN_UI_STOP				= Стоп(&P)
+IDS_MAIN_UI_EJECT				= Извлечь(&E)
+IDS_MAIN_UI_STATUS              = Status
+IDS_MAIN_UI_HELP				= Помощь - F1
+IDS_MAIN_UI_AUTOMP			= AutoMP
+IDS_MAIN_UI_ERROR_ANALYSE = Анализ сбоев
+IDS_MAIN_UI_MANUAL_REFRESH = Ручное восстан.
+
+;string for setup user interface
+IDS_SETUP_UI_SHEET_FLASH		= Память
+IDS_SETUP_UI_SHEET_MODE			= Режим
+IDS_SETUP_UI_SHEET_DISK_INFO	= Информация
+IDS_SETUP_UI_SHEET_BADBLOCK		= Bad Block
+IDS_SETUP_UI_SHEET_AUTOPRODUCTION = Разное
+IDS_SETUP_UI_SHEET_SORTING_TEST = Sorting Test
+IDS_SETUP_UI_SHEET_MP3			= MP3 Setup
+IDS_SETUP_UI_IMPORT_SET			= Загрузить
+IDS_SETUP_UI_EXPORT_SET			= Выгрузить
+IDS_SETUP_UI_IMPORT_TITLE		= Загрузить файл настроек
+IDS_SETUP_UI_EXPORT_TITLE		= Выгрузить настройки в файл
+IDS_SETUP_UI_IMPORT_SUCCESS		= Загрузка выполнена.
+IDS_SETUP_UI_EXPORT_SUCCESS		= Выгрузка выполнена.
+
+;MessageBox
+IDS_SETUP_MESSAGE_NOTE          = Внимание!
+IDS_SETUP_MESSAGE_MY_COMPUTER   = Мой компьютер:\\
+IDS_SETUP_MESSAGE_DIR           = Папка
+IDS_SETUP_MESSAGE_DOC           = Укажите каталог с файлами!
+IDS_SETUP_MESSAGE_CAP           = Укажите объём диска в Мбайтах!
+
+; Password Dialog
+IDS_SETUP_UI_CHANGE_PWD			= Сменить пароль
+IDS_SETUP_UI_PWD				= Пароль
+IDS_SETUP_UI_NEW_PWD			= Нов.пароль
+IDS_SETUP_UI_CHECK_PWD			= Подтв.ввод
+IDS_SETUP_UI_REMEMBER_PWD		= Запомнить пароль
+IDS_SETUP_UI_EDIT_SUCCESS		= Пароль установлен.
+IDS_SETUP_UI_PWD_DIFFERENT		= Пров. ввод пароля.
+IDS_SETUP_UI_PWD_ERROR			= Неправильный пароль.
+IDS_SETUP_UI_OK					= Да
+IDS_SETUP_UI_CANCEL				= Отмена
+
+;key control
+IDS_KEY_CONTROL								= Authorization Management
+IDS_GET_KEY_COUNT							= Get Total Counts
+IDS_TO_GET_KEY								= Obtain Counts
+IDS_TO_RETAIN_KEY							= Retain Remanings
+IDS_REST_KEY								= ReManings
+
+; Flash Sheet
+IDS_SETUP_UI_TITLE				= Настроить
+IDS_SETUP_UI_FLASH_SET			= Параметры микросхем флеш памяти
+IDS_SETUP_UI_UNAUTO_DETECT		= Выбрать другой тип Flash
+IDS_SETUP_UI_FLASH_TYPE			= Тип м\c 
+IDS_SETUP_UI_FLASH_NUM			= Кол-во м\c
+IDS_SETUP_UI_RW_CYCLE           = RW Cycle Time
+IDS_SETUP_UI_CHANNEL            = Каналы
+IDS_SETUP_UI_SINGLE_CHANNEL     = Один канал
+IDS_SETUP_UI_DUAL_CHANNEL       = Два канала
+IDS_SETUP_UI_MP_SET				= Параметры форматирования и проверки
+IDS_SETUP_UI_MP_MODE			= Optimize Mode
+IDS_SETUP_UI_SPEED_OPTIMIZE		= Скорость
+IDS_SETUP_UI_CAP_OPTIMIZE		= Объём
+IDS_SETUP_UI_LLF_SET				= LLF Set optimize
+IDS_SETUP_UI_OPTIMIZE_MODE								= Optimize 2
+IDS_SETUP_UI_OPTIMIZE_MODE_DEFAULT				= (Default)
+IDS_SETUP_UI_OPTIMIZE_MODE_STABILITY			= (Default)
+IDS_SETUP_UI_OPTIMIZE_MODE_CAPACITY				= Максимальный объём
+IDS_SETUP_UI_OPTIMIZE_MODE_YIELD_FACTOR		= Yield Factor
+IDS_SETUP_UI_SCAN_MODE			= Scan Mode
+IDS_SETUP_UI_HLF_SCAN_MODE		= High Level Format
+IDS_SETUP_UI_LLF_SCAN_MODE		= Low Level Format
+IDS_SETUP_UI_SUPER_SCAN_MODE 	= Intelligence Level Format
+IDS_SETUP_UI_LLF	= Low Level Format
+IDS_SETUP_UI_MPed = MPed
+IDS_SETUP_UI_NEED_RE_CHECK					= Half Cap Check When Failed
+IDS_SETUP_UI_FAST_MPED_CHECK				= Fast Hlf
+IDS_SETUP_UI_INC_BADBLOCK_CHECK			 	= Add New Bad Block Last Time
+IDS_SETUP_UI_REMP_SCAN_MODE     			= ReMP
+IDS_SETUP_UI_SCAN_LEVEL         			= Scan Level
+IDS_SETUP_UI_HLF_10							= New
+IDS_SETUP_UI_HLF_20							= New+AA55
+IDS_SETUP_UI_HLF_30							= MPed
+IDS_SETUP_UI_HLF_40							= Erase All
+IDS_SETUP_UI_HLF_50							= Read BB Mark Only
+IDS_SETUP_UI_HLF_60							= Erase+New
+IDS_SETUP_UI_HLF_70							= Read CAP
+IDS_SETUP_UI_HLF_80							= Read U3 CAP
+IDS_SETUP_UI_LLF_10							= Full Scan1
+IDS_SETUP_UI_LLF_20							= Full Scan2
+IDS_SETUP_UI_LLF_30							= Full Scan3
+IDS_SETUP_UI_LLF_50							= Full Scan4
+IDS_SETUP_UI_LLF_80							= L63 Downgrade
+IDS_SETUP_UI_LLF_11							= Fast Scan1
+IDS_SETUP_UI_LLF_12							= Fast Scan2
+IDS_SETUP_UI_LLF_13							= Fast Scan3
+IDS_SETUP_UI_LLF_14							= Fast Scan4
+IDS_SETUP_UI_REMP_10						= MPed
+IDS_SETUP_UI_OTHER_SET						= Other Setup
+IDS_SETUP_UI_ERASE_AFTER_ERASE				= Erase after MP
+IDS_SETUP_UI_SORTING_SET        			= Flash Sorting
+IDS_SETUP_UI_DEFAULT            			= (Default)
+IDS_SETUP_UI_BURN_SET           			= BurnIn Setup
+IDS_SETUP_UI_BURN_CHECK         			= Need BurnIn
+IDS_SETUP_UI_BURN_TIME          			= Times
+IDS_SETUP_UI_RW_TEST            			= Speed Test
+IDS_SETUP_UI_USE_SPECIAL_CLASS				= Use Special Class
+IDS_SETUP_UI_CHANGE_MP_MODE_CAP		= Optimize: Объём, если BadBlock > 
+IDS_SETUP_UI_CHANGE_MP_MODE_SPEED	= Optimize: Скорость, если BadBlock < 
+IDS_SETUP_UI_CHANGE_MP_MODE		= Optimize: Объём, если BadBlock > 
+IDS_SETUP_UI_TWICE_SCAN						= ScanTime
+IDS_SETUP_UI_ECC_REVISE_LEVEL				= LLF Revise
+IDS_SETUP_UI_ENHANCE						= Ecc Enhance Level
+IDS_SETUP_UI_SETUP_ENHANCE					= Enhance Setup
+IDS_SETUP_UI_SECTOR_ERR						= ERR Sector Num
+IDS_SETUP_UI_ADVANCEDLY						= advanced
+IDS_SETUP_UI_ECC_DEFAULT    				= Default
+IDS_SETUP_UI_SECTOR_ECCLEVEL				= Level
+IDS_SETUP_UI_NATURAL						= Natural
+IDS_SETUP_UI_NATURAL_CHECK  				= Natural Check
+IDS_SETUP_UI_DISTURB_CHECK					= Disturb Check
+IDS_SETUP_UI_HYNIX_CHECK					= Special Check
+IDS_SETUP_UI_SPEC_CHECK						= Special Check-Hynix
+IDS_SETUP_UI_LLF_FORMAT						= LLF Check
+IDS_SETUP_UI_HALFCAPACITY_CHECK 			= Half capacity Check(Default)
+IDS_SETUP_UI_RANDOMPAGE_CHECK 				= Half capacity Check(slow)
+IDS_SETUP_UI_FORCE_HALF_CHECK 				= Force Half Cap Check
+IDS_SETUP_UI_ECC_SET        				= LLF Set(Default)
+IDS_SETUP_UI_STRICT         				= (Strict)
+IDS_SETUP_UI_LOOSE	        				= (Loose)
+IDS_SETUP_UI_SPECIAL_FLASH					= Special Flash
+IDS_SETUP_UI_SPECIAL_FLASH_NORMAL 			= Normal(default)
+IDS_SETUP_UI_SPECIAL_FLASH_STARRAM 			= L63(StarRam)
+IDS_SETUP_UI_COMPARE_OPTIMIZATION 			= Compare Optimization
+
+;Product Mode
+IDS_PRODUCT_MODE                                        = Product Mode
+IDS_PRODUCT_MODE_SORT                                   = Sort
+IDS_PRODUCT_MODE_PRODUCT                                = Product
+IDS_SHOW_PRODUCT_MODE																		= Next time no longer shows
+
+//Enhance UI
+IDS_ENHANCE_UI_BK							= Strengthen the stability
+IDS_ENHANCE_UI_BK_ON						= Reduce the write speed and the capacity could be reduced
+IDS_ENHANCE_UI_BK_OFF						= Could affect the stability
+
+//Auto Production
+IDS_SETUP_UI_AUTO_FLASH_SET		= Specify Flash Type
+IDS_SETUP_UI_AUTO_FLASH_LIST 	= По названию
+IDS_SETUP_UI_AUTO_FIX_FLASH		= Specify Flash Name
+IDS_SETUP_UI_AUTO_SET_DELAY 	= Set Delay
+IDS_SETUP_UI_AUTO_FIX_ID			= Используя FID 
+IDS_SETUP_UI_AUTO_PRODUCTION	= Auto Produce
+IDS_SETUP_UI_AUTO_FORCE_FLASH = Расширенный (принудительный) выбор флеш-памяти 
+IDS_SETUP_UI_AUTO_DEFAULT_NOTSPECIFY_FLASH = Тип памяти распознан автоматически
+IDS_SETUP_UI_AUTO_WHETHER_SHOW=Включить поддержку контроллеров
+IDS_SETUP_UI_AUTO_WHETHER_SHOW1=Включить поддержку Au6983 Generic Autorun Disk
+IDS_SETUP_UI_ADJUSTMENT_POWER	= Потребление тока 
+IDS_SETUP_UI_ADJUSTMENT_POWER_ERROR = DEVICE NOT SUPPORT \r\nADJUSTMENT POWER
+
+; Mode Sheet
+IDS_SETUP_UI_DISK_MODE			= Режим USB-флеш диска
+IDS_SETUP_UI_AP_DISK			= Обычн.флешка, Съёмный диск
+IDS_SETUP_UI_FIXED_DISK			= Fixed Disk, Локальный диск
+IDS_SETUP_UI_READONLY_DISK		= Только чтение
+IDS_SETUP_UI_PASSWORD_DISK		= Под паролем
+IDS_SETUP_UI_VIRTUAL_DISK		= Фикс.объем
+IDS_SETUP_UI_DEFAULT_AUTORUN	= Default
+IDS_SETUP_UI_MANUAL_AUTORUN		= Авто-выбор
+IDS_SETUP_UI_PARTITION_SET		= Операции с разделами
+IDS_SETUP_UI_VOLUMEL			= Метка тома 
+IDS_SETUP_UI_DISK_SN            = SN: тома 
+IDS_SETUP_UI_COPY_TO_PARTITION1 = Copy на 1диск
+IDS_SETUP_UI_COPY_TO_PARTITION2 = Copy на 2диск
+IDS_SETUP_UI_PASSWORD_DISK_SET	= Пароль тома
+IDS_SETUP_UI_PASSWORD			= Пароль
+IDS_SETUP_UI_READONLY_DISK_SET	= Только чтение
+IDS_SETUP_UI_FILE_SET			= Файл(ы):
+IDS_SETUP_UI_LED_SET			= Режим индикации
+IDS_SETUP_UI_LED_TYPE			= мигает
+IDS_SETUP_UI_IDLESSE			= Огонёк
+IDS_SETUP_UI_RESERVE_USER		= Зарезервировано (от конца)
+IDS_SETUP_UI_RESERVE_SIZE		= Объем
+IDS_SETUP_UI_AUTHORIZE			= Авторизация
+IDS_SETUP_UI_RESERVE_NOTE		= (0 = отключ.)
+IDS_SETUP_UI_WARNING            = Объем памяти флешки будет соответствовать указанному значению.
+IDS_SETUP_UI_ONE                = Один Диск
+IDS_SETUP_UI_TWO                = Два Диска
+IDS_SETUP_UI_AES_DISK			= AES Disk
+IDS_SETUP_UI_MP_AES_DISK		= Шифрованый диск
+
+; DiskInfo Sheet
+IDS_SETUP_UI_CUSTOMER_INFO 		= Vender Set
+IDS_SETUP_UI_SCSI_VS			= Vender String
+IDS_SETUP_UI_SCSI_PS			= Product String
+IDS_SETUP_UI_DSN				= Случайный
+IDS_SETUP_UI_FSN				= Заданный
+IDS_SETUP_UI_ISN				= По формуле
+IDS_SETUP_UI_CSN				= Customized
+IDS_SETUP_UI_ASN				= по времени
+IDS_SETUP_UI_SN_SET				= Установка SN
+IDS_SETUP_UI_SN					= SN
+IDS_SETUP_UI_PREFIX_SN			= Prefix
+IDS_SETUP_UI_START_SN			= Start
+IDS_SETUP_UI_COUNT_SN			= Count
+IDS_SETUP_UI_DIGIT8             = 8 цифр
+IDS_SETUP_UI_DIGIT20            = 20 цифр
+IDS_SETUP_UI_DIGIT_SPEC					= set digit(<=30)
+
+; BadBlock Sheet
+IDS_SETUP_UI_BADBLOCK_SET       = Поиск BadBlock
+IDS_SETUP_UI_ABB				= Автоопределение
+IDS_SETUP_UI_DBB				= Dynamic Set 
+IDS_SETUP_UI_CBB				= Static Set
+IDS_SETUP_UI_FIXCAP				= Bin
+IDS_SETUP_UI_EXTRA_RESERVE		= Extra Reserve
+IDS_SETUP_UI_MIN_CAP			= Мин
+IDS_SETUP_UI_MAX_CAP			= Макс
+IDS_SETUP_UI_BADBLOCK_PERCENT	= Процент
+IDS_SETUP_UI_FILE_SYSTEM		= Файловая сист.
+IDS_SETUP_UNINSTALL_DRIVER      = Вернуть значок безоп. извлечения USB устройств  
+IDS_SETUP_ATTO_OPTIMIZE						= ATTO Optimize 
+IDS_SETUP_UI_FIXCAPACITY		= Фикс. объём
+IDS_SETUP_UI_CAP_SETERROR		= Capacity Set Error
+IDS_SETUP_UI_HUB_PORT           = Fix Port Setting
+IDS_SETUP_UI_INSERT_ORDER_FIX_HUB           = Plug Sequence(Fix HUB)
+IDS_SETUP_UI_INSERT_ORDER_NOT_FIX_HUB       = Plug Sequence(Not Fix HUB)
+IDS_SETUP_UI_USB_STOR_ENUM_ORDER			= Driver enum Sequence
+IDS_SETUP_UI_BY_HUB_PROFILE				= from hub profile
+IDS_SETUP_UI_NORMAL             			= Normal
+IDS_SETUP_UI_SPECIAL            = Special
+IDS_SETUP_UI_SEQUENCE           = Plug Sequence
+IDS_SETUP_UI_NORMAL             = Normal
+IDS_SETUP_UI_DEVICE_COUNT       = Кол-во устр:
+IDS_SETUP_UI_CDROM_LABEL        = Метка CD-ROM
+IDS_SETUP_UI_NTFS_NOTE			= Only Support one LUN
+IDS_RUNNING_PORT_NUM			= Running Port number
+IDS_SELECT_NEW_UI			= Use new UI 
+
+;SortingTest Sheet
+IDS_SETUP_UI_SORTING_TEST       			= Sorting Test
+IDS_SETUP_UI_BLOCK_COUNT        			= Block Count
+IDS_SETUP_UI_METHOD             			= Method
+IDS_SETUP_UI_ALLOW_BLOCK        			= Allow Bad Block
+IDS_SETUP_UI_PATTERN_SELECT     			= Pattern Select
+IDS_SETUP_UI_BROWSE             			= Browse
+IDS_SETUP_UI_CREATE             			= Create
+
+;Check Struct Sheet
+IDS_SETUP_UI_AUTO_CHECK						= AutoCheck
+IDS_SETUP_UI_FORCE_CHECK					= ForceStruct
+IDS_SETUP_UI_SHARE_RB						= ShareRB
+IDS_SETUP_UI_CEDIE_TABLE					= CEDieTable
+
+;Driver
+IDS_DRIVER_DEL_VIDPID						= (-) VID/PID
+IDS_DRIVER_ADD_VIDPID						= (+) VID/PID
+IDS_DRIVER_LIST_VIDPID					= Список VID/PID
+IDS_DRIVER_INSERVET_DEVICE_VIDPID	= Внести новые VID/PID:
+IDS_DRIVER_EXIT_SAVE						= Принять и выйти
+IDS_DRIVER_CANCEL								= Отмена
+
+;string for show current status
+IDS_STS_ERASE_ALL							= Erase... %2.1f%%
+IDS_STS_SCAN_BAD_BLOCK						= Scan Bad Block... %2.1f%%
+IDS_STS_FORMAT_DEVICE						= Format...
+IDS_STS_PRE_COPY_FILE						= Pure disk Copy File...
+IDS_STS_READONLY_COPY           			= Read-Only Disk copy files...
+IDS_STS_AP_COPY                 			= Write AP Tools...
+IDS_STR_GETBADBLOCKINFO						= Check Bad Block...
+IDS_STS_MARK_BAD_BLOCK						= Mark Bad Block... %2.1f%%
+IDS_STS_NOTSUPORT_SD						= Not to support SD
+IDS_STS_ERASE_RESULT						= "Erase complete. Time: %s"
+IDS_STS_SORTING_RESULT						= "Sorting complete! Time: %s\r\nCAP:%.1fM,Bad Block: %d/%d"
+IDS_STS_RD_BAD_BLOCK_INFO					= Read Bad Block Info %2.1f%%
+IDS_STS_MP_ERROR_RESULT						= "%s\r\nBad Block: %d/%d"
+IDS_STS_SPECIAL_HLF    						= "HIGH LEVEL FORMAT..."
+IDS_STS_USE_89AN							= " [USE 89AN]"
+
+;string for show error information
+IDS_ERR_NO_CONFIG_FILE						= No config file error
+IDS_ERR_NO_FLASHLIST_FILE					= No FlashList.ini error
+IDS_ERR_LOAD_LLF_DLL						= No LLF.DLL error
+IDS_ERR_CONTROLLER_CHANGE					= Hub Configuration Changed. \r\nPlease remove all UDisk device, and open AlcorMP again.
+IDS_ERR_CHANGE_RERUN						= Hub Confiuration Changed. removal of all devices! \r\n whether restart the production process?
+IDS_ERR_CHANGE_UI							= Need restart program for change UIЈЎ\r\n\r\nContinueЈї
+IDS_ERR_SEL_FLASH_NAME						= Please select flash
+
+IDS_ERR_INVALID_DEVECE						= Invalid device error
+IDS_ERR_NO_SUPPORT_DEVICE_MODE				= No support device mode error
+IDS_ERR_GET_DEVICE_CONFIG					= Read Device Info Error
+IDS_ERR_GET_FLASH_ID						= Get flash ID error
+IDS_ERR_NO_FLASH_IN_DEVICE					= No flash in device error
+IDS_ERR_DUAL_CHANNEL_FALSE_ID				= Dual channel flash ID different error
+IDS_ERR_MUTI_DIE_FALSE_ID					= Muti-die Flash ID different error
+IDS_ERR_UNKNOW_FLASH_ERROR					= Unknown flash error
+IDS_ERR_NO_SUPPORT_FLASH					= No support flash error
+IDS_ERR_GET_MODULE_ETURE					= Get module error
+IDS_ERR_NO_SUPPORT_DUAL_CHANNEL				= No Support Dual Channle
+IDS_ERR_FLASH_LIST_NOT_EXISTS				= Flash list not exist error
+IDS_ERR_NOT_SPECIFY_FLASH					= Not specify flash error
+IDS_ERR_DIFFERENT_FLASH_IN_DEVICE			= Different flash in device
+
+IDS_ERR_NO_SORT_CLASS_FORCE_HALF_PAGE_MODE 	= No useful sort class error
+IDS_ERR_TOO_MANY_BAD_BLOCK					= Too many bad block error
+IDS_ERR_NO_ENOUGH_CAP 						= No enough cap
+IDS_ERR_MISS_BIN_FILE						= Miss bin file error
+IDS_ERR_READ_LCM_FILE						= Read LCM file error
+IDS_ERR_LOAD_FIRMWARE_CODE					= Load firmware code error
+IDS_ERR_MISS_CG3_FILE						= Miss KG3 file error
+IDS_ERR_GET_SORTING_RESULT					= Get sorting result error
+IDS_ERR_READ_BAD_BLOCK_INFO					= Read bad block information error
+IDS_ERR_LOAD_CONFIG							= Load config error
+IDS_ERR_HARDWARE_WRITE_PROTECT 				= Hardware Write Protect
+IDS_ERR_GET_USERPASSWORD_STATUS 			= Get userStatus error
+IDS_ERR_COPY_FILE							= Copy files error
+IDS_ERR_RW_TEST								= R\W test error
+IDS_ERR_CREATE_PARTITION					= Create file system error
+IDS_ERR_USER_STOP							= User stop error
+IDS_ERR_DEVICE_REMOVE						= Device remove
+IDS_ERR_UNDEFINE_SCAN_LEVEL					= Undefined scan level error
+
+IDS_ERR_CREATE_AES  						= Create AES Disk Error
+IDS_ERR_NO_SUPPORT_AES  					= NO SUPPOET AES
+IDS_ERR_ONLY_SUPPORT_AP_DISK 				= Flash Only Support Pure Disk
+
+IDS_ERR_BURNINTEST              			= RWTest Failed!
+IDS_ERR_WRITEFILE							= Write File Failed!
+IDS_ERR_CREATE_DIRECTORY					= Create Directory Failed!
+
+IDS_ERR_WRIBBT								= Write Initial bad block table error
+IDS_ERR_RDIBBT								= Read Initial bad block table error
+IDS_ERR_MATCHIBBT							= Two flash have different Categories
+IDS_ERR_NOIBBT								= Has not found Initial bad block table error
+IDS_ERR_UNKNOWN_IBBT_VERSION				= Unknown IBBT Version
+IDS_ERR_ECC_BIG_NO_SUPPORT_REMP 			= Ecc too big for ReMP
+IDS_ERR_READ_BAD_BLOCK_TABLE 				= Read BadBlock Table Error
+IDS_ERR_CHECK_FIRMWARE_CODE     			= Check Firmware Code Error
+
+IDS_ERR_CMD_TIMEOUT							= Command Timeout
+IDS_ERR_RB_FREE								= R/B Pin Not Work Error
+IDS_ERR_WP_LOW								= Write Protect Pin Always Low Error
+IDS_ERR_READ_HYNIX_OTP                                                  = The solution please see document!
+IDS_ERR_MP_TIMEOUT							= MP TimeOut
+IDS_HAS_DIFFERENT_FLASH_ERR 				= Has different flash! Please recheck!
+
+IDS_ERR_Fixed_CAP_SETTED_OVERFLOW 			= Fixed Capacity setted overflow!
+IDS_ERR_VIRTUAL_NO_DISK 					= Please insert the custom disk.
+IDS_ERR_VIRTUAL_NUM_OVERFLOW 				= Exceeded the frequency of use, please replace the custom disk. 
+IDS_ERR_VIRTUAL_MP_NUM_OVERFLOW 			= Exceeded the number of mass production, please shut down MP tool, insert custom disk, then re-opening tool.
+IDS_ERR_USE_SPECIAL_TOOL 					= Please use special MP tool
+IDS_ERR_CAP_ERROR							= Capacity Alignment Error!!!
+
+IDS_ERR_COMPARE_FILE_UNSTABLE 				= Compare file unstable!
+IDS_ERR_COMPARE_FAIL 						= Compare Fail
+IDS_ERR_SIGNAL_ABNORMAL 					= Signal is abnormal
+IDS_SAVE_HUB_PROFILE_SUCCESS			= Save Hub Profile Success!\r\n
+IDS_SAVE_HUB_PROFILE_NOT_SUPPORT	= No Support for saving hub profile!\r\n
+IDS_MAIN_UI_SAVE_PORT_PROFILE			= Export Hub Profile
+IDS_SAVE_HUB_PROFILE_TIP					= Please Confirm that All Ports have been recognized by MP before exporting the profile.
+
+;error analyse and solve
+ANA_ERR_HEAD								= Failure analysis:\r\n
+ANA_ERR_ALL_BAD_FLASH						= Too many bad block\r\n\r\n
+ANA_ERR_INTERACT_IN_FLASH					= Internal disturbance\r\n\r\n
+ANA_ERR_ECC_TOO_SMALL						= ECC too small\r\n\r\n
+ANA_ERR_BLOCK_MODE							= All bad in block mode\r\n\r\n
+ANA_ERR_RBPIN_BAD							= R/B pin disable\r\n\r\n
+ANA_ERR_HARDWARE_WRITE_PROTECT				= Hardware write protect\r\n\r\n
+
+SOLVE_HEAD									= Solution:\r\n
+SOLVE_NONE									= Not have
+SOLVE_INTERACT_DETECT						= Please use Disturb Check
+SOLVE_LARGER_ECC							= Please use larger ECC
+SOLVE_HALF_DETECT							= Please use Half Capacity Check
+SOLVE_LARGER_ECC_HALF_DETECT				= Please use Half Capacity Check and larger ECC
+SOLVE_RBPIN_DETECT							= Please make sure flash R/B pin contacts well
+SOLVE_WPPIN_DETECT							= Please make sure flash WP pin is normal
+
+;MP Tool
+IDS_MAIN_UI_MPINFO							= GetMPInfo
+IDS_STR_UDISK_MPINFO						= UDisk MP Information
+IDS_STR_SCAN_INFO							= Deivce Scan information
+IDS_STR_MP_VER								= MP Version:   
+IDS_STR_CTL									= Device Mode:   
+IDS_STR_OPTIMIZE_MODE						= Optimize Mode:   
+IDS_STR_CAP_OPTIMIZE_MODE					= Cap_Optimize_Mode
+IDS_STR_SPEED_OPTIMIZE_MODE					= Speed_Optimize_Mode
+IDS_STR_SCAN_MODE							= Flash Sorting Mode  
+IDS_STR_HLF_MODE							= High Level Format Mode
+IDS_STR_LLF_MODE							= Low Level Format Mode
+IDS_STR_LEVEL_NEW							= New Scan
+IDS_STR_LEVEL_NEWAA55						= New Scan + AA55
+IDS_STR_LEVEL_ERASE_NEW						= Erase + New Scan
+IDS_STR_LEVEL_FULL							= Full Scan
+IDS_STR_LEVEL_FAST							= Fast Scan
+IDS_STR_SCAN_LEVEL							= Scan Flash Level:   
+IDS_STR_MP_INFO								= Deivce ReMP information
+IDS_STR_NO_IBBT_ERROR						= No MP product information in Flash Error
+IDS_STR_OPEN_DEVICE_ERROR					= Open Device Error
+IDS_STR_GET_DEVICE_MODE_ERROR				= Get Device Mode Error
+IDS_STR_GET_FLASH_ID_ERROR					= Get Flash ID Error
+IDS_STR_NO_FLASH_IN_DEVICE_ERROR			= No Flash In Device Error
+IDS_STR_UNKNOW_FLASH_ERROR					= UnKnow Flash Error
+IDS_STR_MISS_BIN_FILE_ERROR					= Miss Bin File Error
+IDS_STR_MP_UPDATE_FIRMWARE_ERROR			= MP Update FirmWare Error
+IDS_STR_RD_IBBT_ERROR						= Read MP product information Error
+IDS_STR_UK_IBBT_ERROR						= Unknow IBBT Version Error
+IDS_STR_STOP								= Stop
+IDS_STR_CUSTOMER_SN_ERROR					= Sorry, Consumer SN does not matching
+IDS_PWD_ERROR								= PassWord Incorrect!
+IDS_STR_PASSWORD							= PassWord
+IDS_STR_OK									= OK
+IDS_STR_CANCEL								= Cancel
+IDS_STR_USER_STOP_ERROR						= User Stop
+IDS_STR_BEGIN								= Begin
+IDS_STR_LEVEL_YSCAN							= Y Scan
+IDS_STR_LEVEL_TWICESCAN						= Twice Scan
+IDS_STR_CYCLE_TIME							= Cycle Time: 
+IDS_STR_DEFAULT								= Default
+IDS_STR_FLASH_STATUS						= Flash Status:   
+IDS_STR_BAD_BLOCK_SET_MODE					= Bad Block Set Mode:   
+IDS_STR_BBSM_NORMAL							= Auto Check
+IDS_STR_BBSM_DTSD							= Dynamic Set
+IDS_STR_BBSM_GDRL							= Fix Capacity
+IDS_STR_BBSM_BIN							= Bin
+IDS_STR_BBSM_EWBL							= Extra Reserve
+IDS_STR_BBSM_MAX							= Max
+IDS_STR_BBSM_MIN							= Min
+IDS_STR_BBSM_ZBFB							= Percent
+IDS_STR_LEVEL_L63							= L63 Downgrade¤щ
+IDS_STR_MP_TIME								= MPTime: 
+IDS_STR_LLF_ECC_SET							= LLF ECC Setting
+IDS_STR_PRODUCE_MODE						= Produce Mode:
+IDS_STR_PRODUCE_PRODUCT						= Product
+IDS_STR_PRODUCE_BOARD						= Sorting Board
+IDS_STR_CHECK_MODE							= Check Mode:  
+IDS_STR_NATURAL_CHECK						= Natural Check
+IDS_STR_HALFCAPACITY_CHECK					= Half Capacity Check(Default)
+IDS_STR_FORCEHALFPAGE_CHECK					= Force Half Page Check
+IDS_STR_FORCEHALFBLOCK_CHECK				= Force Half Block Check
+IDS_STR_INTERFERE_CHECK						= Interfere Check
+IDS_STR_RANDOMPAGE_CHECK					= Half capacity Check(slow)
+IDS_STR_SPEC_CHECK							= Special Check
+IDS_STR_HYNIX_CHECK							= Special Check-Hynix
+IDS_STR_READ_MPINFO_ERROR					= The device is not readyЈЎ\r\nPlease wait a few seconds before using The magnifying glass
+IDS_STR_MAGNIFY_HELP_WINDOW					= About GetMPInfo
+IDS_STR_MAGNIFY_TITLE						= Magnifier Features And Use
+IDS_STR_MAGNIFY_FEATURES					= FeaturesЈєGet production information.
+IDS_STR_MAGNIFY_INSTRUCTIONS				= Instructions: Click on the device status window.
+
+[UI_SHOW_CFG_DLG]
+DLG_STS_TITLE								= UI Show
+DLG_STS_SORT_MODE							= Sort Mode
+DLG_STS_OPTIMIZE_MODE						= Optimize Mode
+DLG_STS_OPTIMIZE_MODE_SPEED					= Speed
+DLG_STS_OPTIMIZE_MODE_CAP					= Cap
+DLG_STS_DETECT_RESULT_SHOW					= Detech Result Show
+DLG_STS_MPED_RESULT_SHOW					= MPed Result Show
+DLG_STS_BIN_LEVEL							= BIN Level
+DLG_STS_SN									= Serial Number
+DLG_STS_BAD_BLOCK_NUM						= Bad Block Num
+DLG_STS_MP_TIME								= MP Time
+DLG_STS_MAIN_STATUS_TEXT_COLOR				= Main Status Text Color
+DLG_STS_SUB_STATUS_TEXT_COLOR				= Sub Status Text Color
+DLG_STS_DEFAULT								= Default
+DLG_STS_COLOR_BIN_LEVEL						= Bin Level
+DLG_STS_COLOR_SORT_MODE						= Sort Mode
+DLG_STS_OPTIMIZE_MODE_MODE					= Optimeze Mode
+DLG_STS_MP_DEVICE_NUM									= MP Port Number
+DLG_STS_OTHER_SETTINGS					= Other Settings
+DLG_STS_SHOW_WHEN_PORTS_REMOVED = Display when ports removed:
+DLG_STS_SHOW_NONE_AFTER_REMOVED = None
+DLG_STS_SHOW_ALL_AFTER_REMOVED = show all removed
+DLG_STS_SHOW_LAST_AFTER_REMOVED =show the last removed
+[FMT_STR]
+FMT_STR_TIME								= Time: %s
+FMT_STR_CAP									= Cap: 
+FMT_STR_BAD_BLOCK							= BB: %d/%d
+
+[UI_ID_A]
+DETECT_RESULT_FMT_MAIN						= $(NAME) $(CAP)\r\n$(ID) $(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME) $(CAP)$(TOG)\r\n$(BB) $(SN) $(SORT)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+
+[UI_ID_B]
+DETECT_RESULT_FMT_MAIN						= $(NAME)\r\n$(CAP)\r\n$(ID)\r\n$(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME)\r\n$(CAP)$(TOG)\r\n$(BB)\r\n$(SN)\r\n$(SORT)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+
+
+[UI_ID_C]
+DETECT_RESULT_FMT_MAIN						= $(NAME)\r\n$(ID)\r\n$(CAP)$(SORT)
+DETECT_RESULT_FMT_SUB						= $(BIN)$(OPTIMIZE)
+MPED_RESULT_FMT_MAIN						= $(TIME)\r\n$(CAP)$(SORT)\r\n$(BB)\r\n$(SN)$(TOG)
+MPED_RESULT_FMT_SUB							= $(BIN)$(OPTIMIZE)
+SORTING_RESULT_FMT_MAIN					= SortingНкіЙ! $(TIME)\r\n$(CAP) $(BB)
+SORTING_RESULT_FMT_SUB					= 

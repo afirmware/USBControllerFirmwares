@@ -1,0 +1,6 @@
+[Date]
+Month=7
+Day=1
+[Card Status]
+Good=4
+Bad=6

@@ -1,0 +1,14 @@
+MP_9000_03.29.0b,1-7-2011 13:48:01s, Drive: H, Time taken: 13.8 seconds, Capacity: 2048, Serial Number: 90B70100D71C0003, Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: PASS [CS]:0x867D2972
+MP_9000_03.29.0b,1-7-2011 13:54:26s, Drive: H, Time taken: 15.9 seconds, Capacity: 2048, Serial Number: 90B70100D71C0004, Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: PASS [CS]:0x86BD29A0
+MP_9000_03.29.0b,1-7-2011 13:55:03s, Drive: H, Time taken:  6.3 seconds, Capacity:    0, Serial Number: 90B70100D71C0005, Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: PASS [CS]:0x8EBD2979
+MP_9000_03.29.0b,1-7-2011 13:55:24s, Drive: H, Time taken:  4.5 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.06.10, Status: Fail (110D)   
+ 0x110D [CS]:0x21EE01EA
+MP_9000_03.29.0b,1-7-2011 14:52:58s, Drive: H, Time taken:  6.3 seconds, Capacity:    0, Serial Number: 90B70100D71C0006, Flash Number: 1,UIDeviceIndex=3, Firmware Version: 3.05.24, Status: PASS [CS]:0xB07D29B2
+MP_9000_03.29.0b,1-7-2011 18:20:54s, Drive: H, Time taken:  0.4 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.0C.10, Status: Fail (1106)   program burner error 0x1106 [CS]:0x1E52F6CB
+MP_9000_03.29.0b,1-7-2011 18:21:47s, Drive: H, Time taken: 33.8 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.04.10, Status: Fail (110D)   
+ 0x110D [CS]:0x03EE01EB
+MP_9000_03.29.0b,1-7-2011 18:36:32s, Drive: H, Time taken: 33.8 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.04.10, Status: Fail (110D)   
+ 0x110D [CS]:0xCFEE01E9
+MP_9000_03.29.0b,1-7-2011 18:41:13s, Drive: H, Time taken:  0.4 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.0B.10, Status: Fail (1106)   program burner error 0x1106 [CS]:0x1E52C6CB
+MP_9000_03.29.0b,1-7-2011 18:41:44s, Drive: H, Time taken: 12.0 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.04.10, Status: Fail (110D)   
+ 0x110D [CS]:0x07EE01EA

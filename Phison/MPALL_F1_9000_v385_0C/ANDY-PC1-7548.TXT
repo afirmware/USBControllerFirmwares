@@ -1,0 +1,3 @@
+[Customize Info]
+Serial Number1=10
+Serial Number=10

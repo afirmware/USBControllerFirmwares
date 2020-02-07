@@ -1,0 +1,5 @@
+MP_9000_03.29.0b,4-7-2011 16:34:17s, Drive: H, Time taken:  6.3 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.04.10, Status: Fail (110D)   
+ 0x110D [CS]:0x88EEC1EA
+MP_9000_03.29.0b,4-7-2011 16:42:35s, Drive: H, Time taken: 14.5 seconds, Capacity: 4096, Serial Number:   , Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.07.10, Status: Fail (5014)   Preformat status error 0x5014 [CS]:0x2A54977F
+MP_9000_03.29.0b,4-7-2011 16:43:05s, Drive: H, Time taken:  9.1 seconds, Capacity:    0, Serial Number:   , Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.07.10, Status: Fail (5020)   Format File System Error, returned 0x5020 [CS]:0xA9933803
+MP_9000_03.29.0b,4-7-2011 16:43:47s, Drive: H, Time taken: 16.3 seconds, Capacity: 4096, Serial Number:   , Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: Fail (1212)   Flash not supported 0x1212 [CS]:0x9FE08006

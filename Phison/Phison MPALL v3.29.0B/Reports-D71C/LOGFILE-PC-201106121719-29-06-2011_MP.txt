@@ -1,0 +1,4 @@
+MP_9000_03.29.0b,29-6-2011 17:08:40s, Drive: H, Time taken: 59.1 seconds, Capacity:    0, Serial Number:   , Flash Number: 2,UIDeviceIndex=0, Firmware Version: 3.07.10, Status: Fail (5020)   Format File System Error, returned 0x5020 [CS]:0x07A23498
+MP_9000_03.29.0b,29-6-2011 17:09:10s, Drive: H, Time taken:  7.5 seconds, Capacity:    0, Serial Number:   , Flash Number: 2,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: Fail (5020)   Format File System Error, returned 0x5020 [CS]:0xD6A23499
+MP_9000_03.29.0b,29-6-2011 17:11:51s, Drive: H, Time taken: 76.1 seconds, Capacity: 4096, Serial Number:   , Flash Number: 2,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: Fail (5013)   flash verify  0x5013 [CS]:0x81B14AE0
+MP_9000_03.29.0b,29-6-2011 17:13:33s, Drive: H, Time taken: 61.4 seconds, Capacity:    0, Serial Number:   , Flash Number: 2,UIDeviceIndex=0, Firmware Version: 3.09.10, Status: Fail (5020)   Format File System Error, returned 0x5020 [CS]:0xACA23498

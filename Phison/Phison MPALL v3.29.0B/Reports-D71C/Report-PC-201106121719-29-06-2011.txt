@@ -1,0 +1,8 @@
+Compare image: read capacity failed
+Format File System Error, returned
+Compare image: read capacity failed
+Format File System Error, returned
+flash verify 
+flash verify 
+Compare image: read capacity failed
+Format File System Error, returned

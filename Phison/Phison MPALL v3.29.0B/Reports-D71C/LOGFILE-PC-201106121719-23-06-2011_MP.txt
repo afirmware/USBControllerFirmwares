@@ -1,0 +1,7 @@
+MP_9000_03.29.0b,23-6-2011 14:49:35s, Drive: H, Time taken:  2.0 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: Fail (1102)   ISP fail! 0x1102 [CS]:0x0100B8E3
+MP_9000_03.29.0b,23-6-2011 14:50:00s, Drive: H, Time taken:  5.5 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.04.10, Status: Fail (800C)   
+ 0x800C [CS]:0x2CE93E7D
+MP_9000_03.29.0b,23-6-2011 14:53:43s, Drive: H, Time taken: 13.3 seconds, Capacity: 2048, Serial Number: 90B61700D71C0002, Flash Number: 1,UIDeviceIndex=0, Firmware Version: 3.05.24, Status: PASS [CS]:0x26153C27
+MP_9000_03.29.0b,23-6-2011 17:19:29s, Drive: H, Time taken:  0.9 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.01.30, Status: Fail (1102)   ISP fail! 0x1102 [CS]:0xFF36B8E2
+MP_9000_03.29.0b,23-6-2011 17:20:43s, Drive: H, Time taken:  0.8 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.01.30, Status: Fail (1102)   ISP fail! 0x1102 [CS]:0xFC1EB8E2
+MP_9000_03.29.0b,23-6-2011 17:21:27s, Drive: H, Time taken:  0.9 seconds, Capacity:    0, Serial Number:   , Flash Number: 0,UIDeviceIndex=0, Firmware Version: 3.01.30, Status: Fail (1102)   ISP fail! 0x1102 [CS]:0xFDBEB8E2

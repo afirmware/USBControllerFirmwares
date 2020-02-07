@@ -1,0 +1,9 @@
+
+
+
+
+
+Preformat status error
+Compare image: read capacity failed
+Format File System Error, returned
+Flash not supported

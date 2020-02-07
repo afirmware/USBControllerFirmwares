@@ -1,0 +1,4 @@
+MP_9000_03.29.0b,21-6-2011 10:11:57s, Drive: F, Time taken: 16.4 seconds, Capacity: 2048, Serial Number: 90B61500A09F0000, Flash Number: 1,UIDeviceIndex=7, Firmware Version: 3.0A.10, Status: PASS [CS]:0x690BFC48
+MP_9000_03.29.0b,21-6-2011 10:12:04s, Drive: G, Time taken: 23.8 seconds, Capacity: 4096, Serial Number: 90B61500A09F0001, Flash Number: 1,UIDeviceIndex=6, Firmware Version: 3.0A.10, Status: PASS [CS]:0xC98C3C20
+MP_9000_03.29.0b,21-6-2011 10:15:03s, Drive: G, Time taken: 16.3 seconds, Capacity: 2048, Serial Number: 90B61500A09F0002, Flash Number: 1,UIDeviceIndex=7, Firmware Version: 3.0A.10, Status: PASS [CS]:0x698C3C17
+MP_9000_03.29.0b,21-6-2011 10:15:10s, Drive: F, Time taken: 23.6 seconds, Capacity: 4096, Serial Number: 90B61500A09F0003, Flash Number: 1,UIDeviceIndex=6, Firmware Version: 3.0A.10, Status: PASS [CS]:0xCA0BFC05
